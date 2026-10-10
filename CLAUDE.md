@@ -73,7 +73,7 @@ Ejecuta los scripts desde `kit/build` (rutas relativas). Revisa SIEMPRE el rende
    - Historia: `instagramData {"type":"STORY","isAiGenerated":false}`, sin `text`. Una historia por post, espaciadas 1 minuto en orden.
    - Carrusel: `instagramData {"type":"POST","isAiGenerated":false}`, varias URLs en `media`, con `text` (caption).
 4. Antes de crear, revisa con `getScheduledPosts` lo programado y con `getAnalyticsDataByMetrics` (IGST02, IGST05, IGST07; últimos 2 días) las historias ya publicadas, incluidas las que sube el dueño a mano, para no repetir tema ni producto. Metricool sincroniza las historias publicadas con algo de retraso.
-5. Si el dueño pide agregar hashtags o stickers a una historia, prográmala con `autoPublish: false`: Metricool le manda un aviso a su app y él la publica a mano desde Instagram.
+5. Historias interactivas (encuesta, quiz, "esto o esto", preguntas): prográmalas con `autoPublish: false`. Metricool le manda un aviso a la app del dueño y él la publica a mano desde Instagram, agregando el sticker (encuesta, quiz o pregunta) y hashtags escondidos. Diseña esas pantallas dejando un espacio libre de unos 300 px de alto para el sticker. El resto de las historias va con `autoPublish: true`. En el resumen final, avisa qué historias quedaron en modo aviso y qué sticker poner.
 
 ## Calendario (horarios óptimos según Metricool)
 
@@ -89,7 +89,7 @@ Ejecuta los scripts desde `kit/build` (rutas relativas). Revisa SIEMPRE el rende
 
 Temas: semana 11–17 oct creatina (incluye Finaflex 1 kg); 18–24 oct proteína (Whey USN, ISO 100, Nitro Tech, barra Space Protein); 25–31 oct energía para entrenar (Lipo 6, Guaraná Shot); 1–7 nov base y constancia (multivitamínico, Omega 3, stacks). El 11 oct se publicó el lanzamiento de los productos nuevos. Plan detallado: https://claude.ai/code/artifact/1d8386c5-c08a-4f94-b6d2-ec741c11f133
 
-Los reels necesitan video del dueño: no los publiques sin él. Las historias interactivas (encuestas, quiz) no se pueden publicar por API: diseña la pantalla con las opciones y el texto "Responde por DM" en vez de sticker.
+Los reels necesitan video del dueño: no los publiques sin él. Las historias interactivas van en modo aviso (`autoPublish: false`, ver Cómo publicar) para que el dueño agregue el sticker.
 
 ## Estructura del repositorio
 
