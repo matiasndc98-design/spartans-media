@@ -77,6 +77,10 @@ Ejecuta los scripts desde `kit/build` (rutas relativas). Revisa SIEMPRE el rende
 4. Antes de crear, revisa con `getScheduledPosts` lo programado y con `getAnalyticsDataByMetrics` (IGST02, IGST05, IGST07; últimos 2 días) las historias ya publicadas, incluidas las que sube el dueño a mano, para no repetir tema ni producto. Metricool sincroniza las historias publicadas con algo de retraso.
 5. Historias interactivas (encuesta, quiz, "esto o esto", preguntas): prográmalas con `autoPublish: false`. Metricool le manda un aviso a la app del dueño y él la publica a mano desde Instagram, agregando el sticker (encuesta, quiz o pregunta) y hashtags escondidos. Diseña esas pantallas dejando un espacio libre de unos 300 px de alto para el sticker. El resto de las historias va con `autoPublish: true`. En el resumen final, avisa qué historias quedaron en modo aviso y qué sticker poner.
 
+## Robot propio (alternativa gratis a Metricool)
+
+`Robot/` publica en Instagram desde GitHub Actions cada 15 minutos lo que esté en `Robot/cola.json` (ver `Robot/LEEME.md`). Cuando los secretos `IG_TOKEN` e `IG_USER_ID` estén configurados (el dueño avisa), programa ahí en vez de Metricool: agrega elementos `{"id","cuando" (ISO con -03:00),"tipo" HISTORIA|POST|CARRUSEL|REEL,"archivos":[rutas del repo],"texto","estado":"pendiente"}` y haz push. Revisa en la cola los elementos con `estado: error` y corrígelos. Piezas con stickers o música van igual a Metricool en modo aviso o se le mandan al dueño.
+
 ## Calendario (horarios óptimos según Metricool)
 
 | Día | Feed | Historias | Hora |
@@ -104,6 +108,7 @@ Mezcla en cada caption (máximo 8): 2 grandes, 3 de nicho y 3 locales. Grandes: 
 - `Destacadas/` — portadas e historias fijas de las destacadas.
 - `Fotos/` — fotos de producto 4:5 sobre negro.
 - `Reels/` — reels animados (mp4).
+- `Robot/` — robot de publicación gratis (cola.json, scripts) y `.github/workflows/`.
 - `kit/` — scripts, fuentes, íconos e imágenes recortadas (`kit/build/p_*.png`).
 Mantén este orden: nada suelto en la raíz, nombres de carpeta con mayúscula inicial, y borra versiones descartadas.
 
