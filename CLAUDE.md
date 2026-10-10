@@ -49,6 +49,7 @@ Requisitos (ya presentes en el entorno): Python, Playwright con Chromium, Pillow
 - `kit/build/slides.py` — ejemplo de carrusel de producto (4:5). `python3 slides.py <carpeta_salida> [nombres]`.
 - `kit/build/stories2.py` — ejemplo de serie de historias educativas 9:16 (gancho, mitos, costo por día, stack, objetivo). Úsalo como plantilla de estilo; escribe un script nuevo por serie.
 - `kit/build/stock.py` — ejemplo de vitrina con repisas.
+- `kit/build/destacadas.py` — portadas de destacadas (diseño centrado en un círculo de 500 px) e historias fijas "Cómo comprar" y "Cómo te llega". Salida en `destacadas/`.
 
 Ejecuta los scripts desde `kit/build` (rutas relativas). Revisa SIEMPRE el render (abrirlo con Read) antes de publicar: textos que se salen, solapes, recortes.
 
