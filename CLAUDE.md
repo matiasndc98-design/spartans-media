@@ -31,7 +31,7 @@ Idioma de todo el contenido: español de Chile, cercano, con energía "espartana
 | Guaraná Shot OstroVit 80 ml sabor pera (200 mg cafeína) | $2.490 c/u | 1 shot | kit/build/p_guarana.png |
 | Barra Space Protein XXL 80 g coco (36% proteína, 3 g azúcar) | $2.490 c/u | 1 barra | kit/build/p_barra.png |
 
-Creatina OstroVit 21 g: en stock (3 unidades), precio sugerido $3.990 pendiente de confirmar y sin imagen: no publicarla todavía.
+Creatina OstroVit 21 g (sobre): no se vende; el dueño la usa como regalo para clientes frecuentes. No publicarla como promoción a menos que él lo pida.
 
 Promoción real vigente: **por compra de proteína + creatina, shaker C4 de regalo** (kit/build/p_shaker.png).
 
@@ -72,7 +72,8 @@ Ejecuta los scripts desde `kit/build` (rutas relativas). Revisa SIEMPRE el rende
 3. `createScheduledPost` con `blogId 7278335`, `providers [{"network":"instagram"}]`, `publicationDate {dateTime, timezone:"America/Santiago"}`.
    - Historia: `instagramData {"type":"STORY","isAiGenerated":false}`, sin `text`. Una historia por post, espaciadas 1 minuto en orden.
    - Carrusel: `instagramData {"type":"POST","isAiGenerated":false}`, varias URLs en `media`, con `text` (caption).
-4. Antes de crear, revisa con `getScheduledPosts` para no duplicar.
+4. Antes de crear, revisa con `getScheduledPosts` lo programado y con `getAnalyticsDataByMetrics` (IGST02, IGST05, IGST07; últimos 2 días) las historias ya publicadas, incluidas las que sube el dueño a mano, para no repetir tema ni producto. Metricool sincroniza las historias publicadas con algo de retraso.
+5. Si el dueño pide agregar hashtags o stickers a una historia, prográmala con `autoPublish: false`: Metricool le manda un aviso a su app y él la publica a mano desde Instagram.
 
 ## Calendario (horarios óptimos según Metricool)
 
