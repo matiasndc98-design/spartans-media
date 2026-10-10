@@ -2,7 +2,7 @@
 
 Este repositorio es la biblioteca de imágenes y el kit de diseño de la cuenta de Instagram **@spartan_fitness_spa** (Suplementos Spartans, Caldera, Chile). Todo lo que se publica sale de aquí: las imágenes se suben a este repo y Metricool las toma desde su URL raw.
 
-Idioma de todo el contenido: español de Chile, cercano, con energía "espartana". Sin garabatos.
+Idioma de todo el contenido: español de Chile, cercano, con energía "espartana". Sin garabatos. Horas en los diseños en formato 12 horas con AM/PM ("10 AM", "6 PM"), nunca "10:00".
 
 ## La tienda
 
