@@ -34,7 +34,7 @@ Productos que pueden llegar (Dymatize ISO 100, Nitro Tech, Finaflex 1 kg, Ostrov
 - Nunca inventar precios, stock, descuentos, testimonios, resultados ni escasez ("quedan pocas", "últimas unidades"). Urgencia solo si es real (fecha de una promoción que el dueño definió, llegada de stock real).
 - Nada de promesas de cambios físicos ni curas. Lipo 6: presentarlo como termogénico con cafeína para energía al entrenar, nunca "baja X kilos"; incluir siempre la nota "Contiene cafeína (222 mg por cápsula). No apto para menores ni embarazadas."
 - Afirmaciones de suplementos solo las bien respaldadas (creatina 3–5 g/día, cualquier hora, todos los días, fase de carga opcional, retención de agua intramuscular, segura en personas sanas a dosis recomendadas). Ante enfermedad o medicamentos: "consulta a tu médico".
-- Imágenes de producto: las oficiales de la marca que aprobó el dueño (kit/build/p_*.png; sus fotos originales quedan como p_*_real.png). Los textos siempre describen el producto que él vende (gramos y porciones de la tabla del catálogo), aunque la imagen oficial muestre otra versión del envase. No inventar envases ni modificar etiquetas. Fotos 4:5 listas en fotos/; catálogo en feed/catalogo/, serie de creatina en historias/serie_creatina/.
+- Imágenes de producto: las oficiales de la marca que aprobó el dueño (kit/build/p_*.png; sus fotos originales quedan como p_*_real.png). Los textos siempre describen el producto que él vende (gramos y porciones de la tabla del catálogo), aunque la imagen oficial muestre otra versión del envase. No inventar envases ni modificar etiquetas. Fotos 4:5 listas en Fotos/; catálogo en Feed/catalogo/, serie de creatina en Historias/serie_creatina/.
 - Marcar `isAiGenerated: false` (son fotos reales con diseño gráfico).
 
 ## Identidad visual
@@ -49,13 +49,13 @@ Requisitos (ya presentes en el entorno): Python, Playwright con Chromium, Pillow
 - `kit/build/slides.py` — ejemplo de carrusel de producto (4:5). `python3 slides.py <carpeta_salida> [nombres]`.
 - `kit/build/stories2.py` — ejemplo de serie de historias educativas 9:16 (gancho, mitos, costo por día, stack, objetivo). Úsalo como plantilla de estilo; escribe un script nuevo por serie.
 - `kit/build/stock.py` — ejemplo de vitrina con repisas.
-- `kit/build/destacadas.py` — portadas de destacadas (diseño centrado en un círculo de 500 px) e historias fijas "Cómo comprar" y "Cómo te llega". Salida en `destacadas/`.
+- `kit/build/destacadas.py` — portadas de destacadas (diseño centrado en un círculo de 500 px) e historias fijas "Cómo comprar" y "Cómo te llega". Salida en `Destacadas/`.
 
 Ejecuta los scripts desde `kit/build` (rutas relativas). Revisa SIEMPRE el render (abrirlo con Read) antes de publicar: textos que se salen, solapes, recortes.
 
 ## Cómo publicar
 
-1. Guarda los JPG (calidad 90) en `historias/AAAA-MM-DD/` o `feed/AAAA-MM-DD/`, haz commit y push a `main`.
+1. Guarda los JPG (calidad 90) en `Historias/AAAA-MM-DD/` o `Feed/AAAA-MM-DD/`, haz commit y push a `main`.
 2. URL para Metricool: `https://raw.githubusercontent.com/matiasndc98-design/spartans-media/main/<ruta>`.
 3. `createScheduledPost` con `blogId 7278335`, `providers [{"network":"instagram"}]`, `publicationDate {dateTime, timezone:"America/Santiago"}`.
    - Historia: `instagramData {"type":"STORY","isAiGenerated":false}`, sin `text`. Una historia por post, espaciadas 1 minuto en orden.
@@ -77,6 +77,19 @@ Ejecuta los scripts desde `kit/build` (rutas relativas). Revisa SIEMPRE el rende
 Temas: semana 11–17 oct creatina; 18–24 oct proteína; 25–31 oct energía para entrenar (Lipo 6); 1–7 nov base y constancia (multivitamínico, stacks). Plan detallado: https://claude.ai/code/artifact/1d8386c5-c08a-4f94-b6d2-ec741c11f133
 
 Los reels necesitan video del dueño: no los publiques sin él. Las historias interactivas (encuestas, quiz) no se pueden publicar por API: diseña la pantalla con las opciones y el texto "Responde por DM" en vez de sticker.
+
+## Estructura del repositorio
+
+- `Feed/` — publicaciones del feed: `Feed/AAAA-MM-DD/` por fecha y `Feed/catalogo/`.
+- `Historias/` — historias: `Historias/AAAA-MM-DD/` por fecha, series reutilizables y `stock_disponible.jpg`.
+- `Destacadas/` — portadas e historias fijas de las destacadas.
+- `Fotos/` — fotos de producto 4:5 sobre negro.
+- `kit/` — scripts, fuentes, íconos e imágenes recortadas (`kit/build/p_*.png`).
+Mantén este orden: nada suelto en la raíz, nombres de carpeta con mayúscula inicial, y borra versiones descartadas.
+
+## Innovar siempre
+
+Antes de diseñar una serie nueva, busca en internet (WebSearch) tendencias recientes de contenido de marcas de suplementos y fitness en Instagram (formatos de historias, ganchos, reels que funcionan) y aplica al menos una idea nueva, respetando las reglas de confianza. Si una imagen oficial de producto de mejor calidad está disponible, pídesela al dueño (el entorno no puede descargar imágenes de sitios externos).
 
 ## Registro de lo publicado
 
