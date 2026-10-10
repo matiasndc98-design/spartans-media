@@ -82,16 +82,16 @@ Ejecuta los scripts desde `kit/build` (rutas relativas). Revisa SIEMPRE el rende
 | Día | Feed | Historias | Hora |
 | --- | --- | --- | --- |
 | Lunes | Carrusel educativo | Encuesta / tema de la semana | 10:00 |
-| Martes | Reel (requiere video del dueño) | Pregunta frecuente | 18:00 |
+| Martes | Reel animado educativo | Pregunta frecuente | 18:00 |
 | Miércoles | — | Producto de la semana con precio | 10:00 |
-| Jueves | Reel (requiere video del dueño) | Detrás de la tienda | 18:00 |
+| Jueves | Reel animado (producto o comparativa) | Detrás de la tienda | 18:00 |
 | Viernes | Carrusel de producto o comparativa | Combo / promoción real | 10:00 |
-| Sábado | Reel (requiere video del dueño) | Quiz o "esto o esto" | 10:00 |
+| Sábado | Reel animado educativo | Quiz o "esto o esto" | 10:00 |
 | Domingo | — | Resumen y llamado al DM | 10:00 |
 
 Temas: semana 11–17 oct creatina (incluye Finaflex 1 kg); 18–24 oct proteína (Whey USN, ISO 100, Nitro Tech, barra Space Protein); 25–31 oct energía para entrenar (Lipo 6, Guaraná Shot); 1–7 nov base y constancia (multivitamínico, Omega 3, stacks). El 11 oct se publicó el lanzamiento de los productos nuevos. Plan detallado: https://claude.ai/code/artifact/1d8386c5-c08a-4f94-b6d2-ec741c11f133
 
-Los reels necesitan video del dueño: no los publiques sin él. Las historias interactivas van en modo aviso (`autoPublish: false`, ver Cómo publicar) para que el dueño agregue el sticker.
+Reels: animados con `kit/build/reel.py` (base) siguiendo el formato de `reel_proteina.py`, que al dueño le encantó: gancho con pregunta → dato con fuente → ejemplo concreto → cómo aplicarlo → remate breve con producto y "Guárdalo y escríbenos". 15–18 s, sin música, `type: REEL` y `autoPublish: false` para que el dueño agregue música en Instagram. Cada reel nuevo debe mejorar algo respecto del anterior (ritmo, gancho, transición o dato). Si el dueño manda video real, se edita y se prioriza. Las historias interactivas van en modo aviso (`autoPublish: false`, ver Cómo publicar) para que el dueño agregue el sticker.
 
 ## Hashtags
 
