@@ -5,7 +5,7 @@ B = os.path.dirname(os.path.abspath(__file__))
 NM = os.path.join(B, '..', 'npmw', 'node_modules')
 FS = os.path.join(NM, '@fontsource')
 IC = os.path.join(NM, '@tabler', 'icons', 'icons', 'outline')
-OUT = sys.argv[1]
+OUT = sys.argv[1] if len(sys.argv) > 1 else "."
 
 def uri(p):
     ext = p.rsplit('.', 1)[1]
