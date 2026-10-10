@@ -34,7 +34,7 @@ Productos que pueden llegar (Dymatize ISO 100, Nitro Tech, Finaflex 1 kg, Ostrov
 - Nunca inventar precios, stock, descuentos, testimonios, resultados ni escasez ("quedan pocas", "últimas unidades"). Urgencia solo si es real (fecha de una promoción que el dueño definió, llegada de stock real).
 - Nada de promesas de cambios físicos ni curas. Lipo 6: presentarlo como termogénico con cafeína para energía al entrenar, nunca "baja X kilos"; incluir siempre la nota "Contiene cafeína (222 mg por cápsula). No apto para menores ni embarazadas."
 - Afirmaciones de suplementos solo las bien respaldadas (creatina 3–5 g/día, cualquier hora, todos los días, fase de carga opcional, retención de agua intramuscular, segura en personas sanas a dosis recomendadas). Ante enfermedad o medicamentos: "consulta a tu médico".
-- Imágenes de producto: las oficiales de la marca que aprobó el dueño (kit/build/p_*.png; sus fotos originales quedan como p_*_real.png). Los textos siempre describen el producto que él vende (gramos y porciones de la tabla del catálogo), aunque la imagen oficial muestre otra versión del envase. No inventar envases ni modificar etiquetas. Fotos 4:5 listas en Fotos/; catálogo en Feed/catalogo/, serie de creatina en Historias/serie_creatina/.
+- Imágenes de producto: imágenes oficiales de la versión exacta que vende el dueño (kit/build/p_*.png; sus fotos originales quedan como p_*_real.png). Los textos siempre describen el producto que él vende (gramos y porciones del catálogo). No inventar envases ni modificar etiquetas. Fotos 4:5 listas en Fotos/; catálogo en Feed/catalogo/, serie de creatina en Historias/serie_creatina/.
 - Marcar `isAiGenerated: false` (son fotos reales con diseño gráfico).
 
 ## Identidad visual
