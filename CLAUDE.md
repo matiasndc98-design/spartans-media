@@ -62,6 +62,7 @@ Requisitos (ya presentes en el entorno): Python, Playwright con Chromium, Pillow
 - `kit/build/recorte.py` — recorta imágenes oficiales de producto a PNG transparente sin sombra (`--hull` para frascos de etiqueta blanca).
 - `kit/build/nuevos.py` — ejemplo de lanzamiento de productos nuevos: carrusel + historias.
 - `kit/build/reel.py` — reel animado 9:16 de 15 s (animaciones CSS renderizadas cuadro a cuadro + ffmpeg). Salida en `Reels/`. Los reels se publican con `autoPublish: false` para que el dueño agregue música en Instagram.
+- `kit/build/reel_proteina.py` — ejemplo de reel educativo (no centrado en productos) que reutiliza `reel.py` reemplazando `body()`. Ideas: cálculos, mitos, tips de entrenamiento, comparativas; remate breve con producto al final.
 - `kit/build/destacadas.py` — portadas de destacadas (diseño centrado en un círculo de 500 px) e historias fijas "Cómo comprar" y "Cómo te llega". Salida en `Destacadas/`.
 
 Ejecuta los scripts desde `kit/build` (rutas relativas). Revisa SIEMPRE el render (abrirlo con Read) antes de publicar: textos que se salen, solapes, recortes.
