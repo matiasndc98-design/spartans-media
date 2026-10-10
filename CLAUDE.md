@@ -34,7 +34,7 @@ Productos que pueden llegar (Dymatize ISO 100, Nitro Tech, Finaflex 1 kg, Ostrov
 - Nunca inventar precios, stock, descuentos, testimonios, resultados ni escasez ("quedan pocas", "últimas unidades"). Urgencia solo si es real (fecha de una promoción que el dueño definió, llegada de stock real).
 - Nada de promesas de cambios físicos ni curas. Lipo 6: presentarlo como termogénico con cafeína para energía al entrenar, nunca "baja X kilos"; incluir siempre la nota "Contiene cafeína (222 mg por cápsula). No apto para menores ni embarazadas."
 - Afirmaciones de suplementos solo las bien respaldadas (creatina 3–5 g/día, cualquier hora, todos los días, fase de carga opcional, retención de agua intramuscular, segura en personas sanas a dosis recomendadas). Ante enfermedad o medicamentos: "consulta a tu médico".
-- Usar solo fotos reales de los productos (las de kit/build o las que mande el dueño). No inventar envases ni modificar etiquetas.
+- Usar solo imágenes reales del producto que el dueño tiene en stock: sus fotos o las imágenes oficiales de la marca que él aprobó (kit/build/p_*.png). Whey USN y MuscleTech uva usan la imagen oficial; el resto usa la foto del dueño porque la imagen oficial muestra otra versión del envase (USN Pure Creatine 410 g, MuscleTech 450 g, USN Wellness, Lipo 6 liqui-caps). No inventar envases ni modificar etiquetas. Fotos 4:5 listas en fotos/.
 - Marcar `isAiGenerated: false` (son fotos reales con diseño gráfico).
 
 ## Identidad visual
