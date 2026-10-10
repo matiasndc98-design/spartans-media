@@ -91,6 +91,10 @@ Temas: semana 11–17 oct creatina (incluye Finaflex 1 kg); 18–24 oct proteín
 
 Los reels necesitan video del dueño: no los publiques sin él. Las historias interactivas van en modo aviso (`autoPublish: false`, ver Cómo publicar) para que el dueño agregue el sticker.
 
+## Hashtags
+
+Mezcla en cada caption (máximo 8): 2 grandes, 3 de nicho y 3 locales. Grandes: #gym #fitness #suplementos. Nicho: #suplementosdeportivos #suplementoschile #proteina #creatina #wheyprotein #hipertrofia. Locales: #caldera #copiapo #atacama #suplementoscaldera #gymcaldera #spartans. Agrega la marca del producto cuando corresponda (#dymatize #muscletech #usn #nutrex).
+
 ## Estructura del repositorio
 
 - `Feed/` — publicaciones del feed: `Feed/AAAA-MM-DD/` por fecha y `Feed/catalogo/`.
