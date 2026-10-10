@@ -16,18 +16,28 @@ Idioma de todo el contenido: español de Chile, cercano, con energía "espartana
 
 ## Catálogo vigente (precios del dueño — no cambiarlos)
 
-| Producto | Precio | Porciones | Imagen recortada |
+| Producto | Precio | Porciones / formato | Imagen recortada |
 | --- | --- | --- | --- |
-| Whey USN Premium Whey+ 5 lb chocolate (22 g proteína/porción) | $70.000 | — | kit/build/p_whey.png |
+| Whey USN Premium Whey+ 5 lb chocolate (22 g proteína/porción) | $70.000 | 5 lb | kit/build/p_whey.png |
+| Dymatize ISO 100 Hydrolyzed 5 lb Cocoa Pebbles (25 g proteína, 100% whey isolate) | $149.990 | 71 | kit/build/p_iso100.png |
+| MuscleTech Nitro Tech 4 lb vainilla (30 g proteína + 3 g creatina por porción) | $99.990 | 4 lb | kit/build/p_nitro.png |
 | Creatina USN 300 g sin sabor (5 g/porción) | $25.000 | 60 | kit/build/p_usn_crea.png |
 | Creatina MuscleTech Platinum 400 g sin sabor (micronizada, 5 g) | $39.000 | 80 | kit/build/p_mt_sin.png |
 | Creatina MuscleTech Platinum 392 g uva Grape Freeze (5 g) | $43.000 | 60 | kit/build/p_mt_uva.png |
+| Creatina Finaflex 1 kg sin sabor (micronizada, 5 g, NSF Contents Certified) | $49.990 | 200 | kit/build/p_finaflex.png |
 | Lipo 6 Black Ultra Concentrate, Nutrex, 60 cápsulas (222 mg cafeína/cápsula) | $30.000 | 60 | kit/build/p_lipo.png |
 | Multivitamínico USN Super Daily Formula, 60 tabletas (2 por porción) | $30.000 | 30 | kit/build/p_multi.png |
+| Omega 3 USN Fish Oil 1000 mg, 90 cápsulas blandas | $16.990 | 90 | kit/build/p_omega.png |
+| Guaraná Shot OstroVit 80 ml sabor pera (200 mg cafeína) | $2.490 c/u | 1 shot | kit/build/p_guarana.png |
+| Barra Space Protein XXL 80 g coco (36% proteína, 3 g azúcar) | $2.490 c/u | 1 barra | kit/build/p_barra.png |
+
+Creatina OstroVit 21 g: en stock (3 unidades), precio sugerido $3.990 pendiente de confirmar y sin imagen: no publicarla todavía.
 
 Promoción real vigente: **por compra de proteína + creatina, shaker C4 de regalo** (kit/build/p_shaker.png).
 
-Productos que pueden llegar (Dymatize ISO 100, Nitro Tech, Finaflex 1 kg, Ostrovit 21 g, Omega 3 USN, barras Space Protein, shots de guaraná): **no publicarlos** hasta que el dueño mande foto y precio.
+Guaraná Shot: incluir siempre "Contiene cafeína (200 mg por shot). No apto para menores ni embarazadas." No combinar en la misma recomendación con Lipo 6 (ambos tienen cafeína).
+
+Productos nuevos que lleguen: no publicarlos hasta que el dueño mande imagen y precio.
 
 ## Reglas de confianza (obligatorias)
 
@@ -49,6 +59,8 @@ Requisitos (ya presentes en el entorno): Python, Playwright con Chromium, Pillow
 - `kit/build/slides.py` — ejemplo de carrusel de producto (4:5). `python3 slides.py <carpeta_salida> [nombres]`.
 - `kit/build/stories2.py` — ejemplo de serie de historias educativas 9:16 (gancho, mitos, costo por día, stack, objetivo). Úsalo como plantilla de estilo; escribe un script nuevo por serie.
 - `kit/build/stock.py` — ejemplo de vitrina con repisas.
+- `kit/build/recorte.py` — recorta imágenes oficiales de producto a PNG transparente sin sombra (`--hull` para frascos de etiqueta blanca).
+- `kit/build/nuevos.py` — ejemplo de lanzamiento de productos nuevos: carrusel + historias.
 - `kit/build/destacadas.py` — portadas de destacadas (diseño centrado en un círculo de 500 px) e historias fijas "Cómo comprar" y "Cómo te llega". Salida en `Destacadas/`.
 
 Ejecuta los scripts desde `kit/build` (rutas relativas). Revisa SIEMPRE el render (abrirlo con Read) antes de publicar: textos que se salen, solapes, recortes.
@@ -74,7 +86,7 @@ Ejecuta los scripts desde `kit/build` (rutas relativas). Revisa SIEMPRE el rende
 | Sábado | Reel (requiere video del dueño) | Quiz o "esto o esto" | 10:00 |
 | Domingo | — | Resumen y llamado al DM | 10:00 |
 
-Temas: semana 11–17 oct creatina; 18–24 oct proteína; 25–31 oct energía para entrenar (Lipo 6); 1–7 nov base y constancia (multivitamínico, stacks). Plan detallado: https://claude.ai/code/artifact/1d8386c5-c08a-4f94-b6d2-ec741c11f133
+Temas: semana 11–17 oct creatina (incluye Finaflex 1 kg); 18–24 oct proteína (Whey USN, ISO 100, Nitro Tech, barra Space Protein); 25–31 oct energía para entrenar (Lipo 6, Guaraná Shot); 1–7 nov base y constancia (multivitamínico, Omega 3, stacks). El 11 oct se publicó el lanzamiento de los productos nuevos. Plan detallado: https://claude.ai/code/artifact/1d8386c5-c08a-4f94-b6d2-ec741c11f133
 
 Los reels necesitan video del dueño: no los publiques sin él. Las historias interactivas (encuestas, quiz) no se pueden publicar por API: diseña la pantalla con las opciones y el texto "Responde por DM" en vez de sticker.
 
