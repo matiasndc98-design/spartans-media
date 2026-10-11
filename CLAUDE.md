@@ -44,19 +44,19 @@ Productos nuevos que lleguen: no publicarlos hasta que el dueño mande imagen y 
 - Nunca inventar precios, stock, descuentos, testimonios, resultados ni escasez ("quedan pocas", "últimas unidades"). Urgencia solo si es real (fecha de una promoción que el dueño definió, llegada de stock real).
 - Nada de promesas de cambios físicos ni curas. Lipo 6: presentarlo como termogénico con cafeína para energía al entrenar, nunca "baja X kilos"; incluir siempre la nota "Contiene cafeína (222 mg por cápsula). No apto para menores ni embarazadas."
 - Afirmaciones de suplementos solo las bien respaldadas (creatina 3–5 g/día, cualquier hora, todos los días, fase de carga opcional, retención de agua intramuscular, segura en personas sanas a dosis recomendadas). Ante enfermedad o medicamentos: "consulta a tu médico".
-- Imágenes de producto: imágenes oficiales de la versión exacta que vende el dueño (kit/build/p_*.png; sus fotos originales quedan como p_*_real.png). Los textos siempre describen el producto que él vende (gramos y porciones del catálogo). No inventar envases ni modificar etiquetas. Fotos 4:5 listas en Fotos/; catálogo en Feed/Catalogo/, serie de creatina en Historias/Series/Creatina/.
+- Imágenes de producto: imágenes oficiales de la versión exacta que vende el dueño (kit/build/p_*.png; sus fotos originales quedan como p_*_real.png). Los textos siempre describen el producto que él vende (gramos y porciones del catálogo). No inventar envases ni modificar etiquetas. Fotos 4:5 listas en Fotos/; catálogo único en Feed/Catalogo/ (12 productos, sin precios), serie de creatina en Historias/Series/Creatina/.
 - Marcar `isAiGenerated: false` (son fotos reales con diseño gráfico).
 
 ## Identidad visual
 
-Fondo negro (#060504) con brasas naranjas, naranjo Spartans #F26A1B, blanco. Títulos en Bebas Neue, textos en Barlow Condensed (mayúsculas). Casco naranjo (kit/build/helmet.png) + "SPARTANS" arriba. Feed 1080×1350 (4:5); historias 1080×1920 con lo importante fuera de los 250 px superiores e inferiores. Historias **sin numeración** (nada de 1/5, 2/5: el orden lo controlamos nosotros al programar). **Historias y reels sin precios de productos** (decisión del dueño): en historias usar beneficios, datos (gramos, porciones, días que dura) y llamado al DM; los precios van solo en carruseles de catálogo del feed y la destacada Precios. El costo de delivery ($1.500) sí puede aparecer. No repetir el mismo formato en feed e historias; evitar que todo parezca catálogo.
+Fondo negro (#060504) con brasas naranjas, naranjo Spartans #F26A1B, blanco. Títulos en Bebas Neue, textos en Barlow Condensed (mayúsculas). Casco naranjo (kit/build/helmet.png) + "SPARTANS" arriba. Feed 1080×1350 (4:5); historias 1080×1920 con lo importante fuera de los 250 px superiores e inferiores. Historias **sin numeración** (nada de 1/5, 2/5: el orden lo controlamos nosotros al programar). **Ninguna imagen, video ni caption lleva precios de productos** (decisión del dueño): usar beneficios, datos (gramos, porciones, días que dura) y llamado al DM ("Pídelo por DM"); el precio se da por DM con la tabla del catálogo de esta guía. El costo de delivery ($1.500) sí puede aparecer. No repetir el mismo formato en feed e historias; evitar que todo parezca catálogo.
 
 ## Cómo generar imágenes
 
 Requisitos (ya presentes en el entorno): Python, Playwright con Chromium, Pillow.
 
 - `kit/build/gen.py` — helpers: `FONTS`, `CSS` de feed, `FX` (brasas en canvas), `icon(nombre)` (íconos en `kit/npmw/node_modules/@tabler/icons/icons/outline`), `uri(ruta)`, `header()`, `bar_html()`, `product_slide(dict, seed)`, `render(pages)`.
-- `kit/build/slides.py` — ejemplo de carrusel de producto (4:5). `python3 slides.py <carpeta_salida> [nombres]`.
+- `kit/build/slides.py` — catálogo completo (4:5, sin precios; producto nuevo = agregarlo a la lista P y regenerar). `python3 slides.py <carpeta_salida> [nombres]`.
 - `kit/build/stories2.py` — ejemplo de serie de historias educativas 9:16 (gancho, mitos, costo por día, stack, objetivo). Úsalo como plantilla de estilo; escribe un script nuevo por serie.
 - `kit/build/stock.py` — ejemplo de vitrina con repisas.
 - `kit/build/recorte.py` — recorta imágenes oficiales de producto a PNG transparente sin sombra (`--hull` para frascos de etiqueta blanca).
@@ -111,7 +111,7 @@ Mezcla en cada caption (máximo 8): 2 grandes, 3 de nicho y 3 locales. Grandes: 
 
 ## Estructura del repositorio
 
-- `Feed/` — publicaciones del feed: `Feed/AAAA-MM-DD/` por fecha y `Feed/Catalogo/`.
+- `Feed/` — publicaciones del feed: `Feed/AAAA-MM-DD/` por fecha (solo piezas nuevas, nunca copias de láminas del catálogo) y `Feed/Catalogo/` (portada + una lámina por producto + cómo comprar, generado con `kit/build/slides.py`). No repetir imágenes en dos carpetas: si una pieza usa láminas del catálogo, se referencian desde `Feed/Catalogo/`.
 - `Historias/` — historias: `Historias/AAAA-MM-DD/` por fecha, `Historias/Series/` reutilizables y `Fijas/stock_disponible.jpg`.
 - `Destacadas/` — portadas e historias fijas de las destacadas.
 - `Fotos/` — fotos de producto 4:5 sobre negro.

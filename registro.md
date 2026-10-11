@@ -22,3 +22,4 @@
 - 2026-10-11 · ajuste · reels solo con efectos (sin base rítmica): la música la pone el dueño
 - 2026-10-11 · orden · carpetas reorganizadas (Feed/Catalogo, Historias/Series/Creatina, Historias/Fijas, Reels/Por_subir y Reels/Publicados), README con mapa
 - 2026-10-11 · historias · el dueño subió a mano h3_proteinas, h4_finaflex, h5_al_paso (versión sin precio) ~3:30 PM
+- 2026-10-11 · orden · sin precios en ninguna imagen: catálogo único Feed/Catalogo (portada + 12 productos + cómo comprar, "Pídelo por DM"); borrado Feed/2026-10-11 (sus láminas estaban repetidas en el catálogo); destacada "Precios" → "Productos" (Destacadas/portada_productos.jpg)

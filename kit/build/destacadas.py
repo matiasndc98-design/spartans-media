@@ -47,7 +47,7 @@ def cover(icon_name=None, img=None):
     return page(css, f'<div class="glow"></div><div class="ring">{inner}</div>', 11)
 
 
-COVERS = [('precios', 'tag'), ('comprar', 'shopping-cart'), ('envios', 'truck-delivery'),
+COVERS = [('productos', 'package'), ('comprar', 'shopping-cart'), ('envios', 'truck-delivery'),
           ('aprende', 'brain'), ('stacks', 'barbell'), ('spartans', None)]
 
 

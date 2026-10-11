@@ -12,18 +12,18 @@ I = lambda n: gen.uri(os.path.join(gen.B, n))
 
 # ---------- Carrusel (usa product_slide del kit) ----------
 P = [
-    dict(name='02_iso100', img='p_iso100.png', h=760, a='Nivel', b='PREMIUM.', c='Dymatize ISO 100 Hydrolyzed<br>5 lb · Cocoa Pebbles', price='$149.990',
+    dict(name='02_iso100', img='p_iso100.png', h=760, a='Nivel', b='PREMIUM.', c='Dymatize ISO 100 Hydrolyzed<br>5 lb · Cocoa Pebbles',
          ben=[('barbell', '25 g de proteína', 'por porción'), ('droplet', '100% whey isolate', 'hidrolizada'), ('clock', '71 porciones', '5 lb (2,3 kg)')]),
-    dict(name='03_nitro', img='p_nitro.png', h=700, a='Proteína +', b='CREATINA.', c='MuscleTech Nitro Tech<br>4 lb · vainilla', price='$99.990',
+    dict(name='03_nitro', img='p_nitro.png', h=700, a='Proteína +', b='CREATINA.', c='MuscleTech Nitro Tech<br>4 lb · vainilla',
          ben=[('barbell', '30 g de proteína', 'por porción'), ('bolt', '3 g de creatina', 'en cada porción'), ('award', '4 lb (1,81 kg)', 'sabor vainilla')]),
-    dict(name='04_finaflex', img='p_finaflex.png', h=740, a='1 kilo de', b='CREATINA.', c='Finaflex Creatine<br>1 kg · sin sabor', price='$49.990',
-         ben=[('bolt', '5 g de creatina', 'micronizada'), ('clock', '200 porciones', '$250 al día'), ('shield-check', 'Certificada NSF', 'contenido verificado')]),
-    dict(name='05_omega', img='p_omega.png', h=740, a='Tu esencial', b='DIARIO.', c='USN Omega 3 Fish Oil<br>1000 mg', price='$16.990',
+    dict(name='04_finaflex', img='p_finaflex.png', h=740, a='1 kilo de', b='CREATINA.', c='Finaflex Creatine<br>1 kg · sin sabor',
+         ben=[('bolt', '5 g de creatina', 'micronizada'), ('clock', '200 porciones', '200 días de uso diario'), ('shield-check', 'Certificada NSF', 'contenido verificado')]),
+    dict(name='05_omega', img='p_omega.png', h=740, a='Tu esencial', b='DIARIO.', c='USN Omega 3 Fish Oil<br>1000 mg',
          ben=[('droplet', '1000 mg', 'por cápsula'), ('pill', '90 cápsulas', 'blandas'), ('leaf', 'Ácidos grasos', 'esenciales')]),
-    dict(name='06_guarana', img='p_guarana.png', h=760, a='Energía en', b='UN SHOT.', c='OstroVit Guaraná Shot<br>80 ml · sabor pera', price='$2.490',
+    dict(name='06_guarana', img='p_guarana.png', h=760, a='Energía en', b='UN SHOT.', c='OstroVit Guaraná Shot<br>80 ml · sabor pera',
          note='Contiene cafeína (200 mg por shot). No apto para menores ni embarazadas.',
          ben=[('bolt', '200 mg de cafeína', 'por shot'), ('bottle', '80 ml', 'listo para tomar'), ('flame', 'Sabor pera', 'antes de entrenar')]),
-    dict(name='07_barra', img='p_barra.png', h=760, align='center', imgstyle='max-width:none;max-height:none;width:760px;transform:rotate(-68deg)', a='Proteína', b='AL PASO.', c='Space Protein XXL<br>80 g · coco', price='$2.490',
+    dict(name='07_barra', img='p_barra.png', h=760, align='center', imgstyle='max-width:none;max-height:none;width:760px;transform:rotate(-68deg)', a='Proteína', b='AL PASO.', c='Space Protein XXL<br>80 g · coco',
          ben=[('barbell', '36% proteína', 'barra de 80 g'), ('heart', '3 g de azúcar', 'por barra'), ('star', 'Sabor coco', 'tamaño XXL')]),
 ]
 NEW = ['p_iso100.png', 'p_nitro.png', 'p_finaflex.png', 'p_omega.png', 'p_guarana.png', 'p_barra.png']
