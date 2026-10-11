@@ -1,7 +1,7 @@
 """Reel animado 9:16 (1080x1920, 30 fps) con animaciones CSS renderizadas cuadro a cuadro.
 Uso (desde kit/build): python3 reel.py <salida.mp4>
 Escenas: gancho "LLEGÓ ALGO NUEVO" -> un producto por escena con su dato clave (sin precio) -> cierre con todos y llamado al DM.
-Sin música: el dueño la agrega en Instagram (publicar con autoPublish false).
+Sonido original (sonido.py): efectos sincronizados con las animaciones + base rítmica. El dueño puede bajarle el volumen y agregar música en Instagram.
 """
 import sys, os, subprocess, tempfile, shutil
 sys.path.insert(0, '.')
@@ -104,12 +104,16 @@ def main():
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={'width': W, 'height': H})
         pg.set_content(html, wait_until='load'); pg.wait_for_selector('body[data-ok]')
+        ev = pg.evaluate('document.getAnimations().map(a=>[a.effect.getTiming().delay/1000, a.animationName])')
         for f in range(n):
             pg.evaluate(f'document.getAnimations().forEach(a=>{{a.currentTime={f * 1000 / FPS}}})')
             pg.screenshot(path=os.path.join(tmp, f'{f:05d}.jpg'), type='jpeg', quality=92)
         b.close()
+    import sonido
+    wav = os.path.join(tmp, 'audio.wav')
+    sonido.pista(ev, DUR, wav)
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-framerate', str(FPS), '-i', os.path.join(tmp, '%05d.jpg'),
-                    '-f', 'lavfi', '-t', str(DUR), '-i', 'anullsrc=r=44100:cl=stereo',
+                    '-i', wav,
                     '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-profile:v', 'high', '-crf', '19', '-preset', 'medium',
                     '-c:a', 'aac', '-shortest', '-movflags', '+faststart', OUT], check=True)
     shutil.rmtree(tmp)
