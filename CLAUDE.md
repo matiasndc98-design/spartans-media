@@ -44,7 +44,7 @@ Productos nuevos que lleguen: no publicarlos hasta que el dueño mande imagen y 
 - Nunca inventar precios, stock, descuentos, testimonios, resultados ni escasez ("quedan pocas", "últimas unidades"). Urgencia solo si es real (fecha de una promoción que el dueño definió, llegada de stock real).
 - Nada de promesas de cambios físicos ni curas. Lipo 6: presentarlo como termogénico con cafeína para energía al entrenar, nunca "baja X kilos"; incluir siempre la nota "Contiene cafeína (222 mg por cápsula). No apto para menores ni embarazadas."
 - Afirmaciones de suplementos solo las bien respaldadas (creatina 3–5 g/día, cualquier hora, todos los días, fase de carga opcional, retención de agua intramuscular, segura en personas sanas a dosis recomendadas). Ante enfermedad o medicamentos: "consulta a tu médico".
-- Imágenes de producto: imágenes oficiales de la versión exacta que vende el dueño (kit/build/p_*.png; sus fotos originales quedan como p_*_real.png). Los textos siempre describen el producto que él vende (gramos y porciones del catálogo). No inventar envases ni modificar etiquetas. Fotos 4:5 listas en Fotos/; catálogo en Feed/catalogo/, serie de creatina en Historias/serie_creatina/.
+- Imágenes de producto: imágenes oficiales de la versión exacta que vende el dueño (kit/build/p_*.png; sus fotos originales quedan como p_*_real.png). Los textos siempre describen el producto que él vende (gramos y porciones del catálogo). No inventar envases ni modificar etiquetas. Fotos 4:5 listas en Fotos/; catálogo en Feed/Catalogo/, serie de creatina en Historias/Series/Creatina/.
 - Marcar `isAiGenerated: false` (son fotos reales con diseño gráfico).
 
 ## Identidad visual
@@ -61,7 +61,7 @@ Requisitos (ya presentes en el entorno): Python, Playwright con Chromium, Pillow
 - `kit/build/stock.py` — ejemplo de vitrina con repisas.
 - `kit/build/recorte.py` — recorta imágenes oficiales de producto a PNG transparente sin sombra (`--hull` para frascos de etiqueta blanca).
 - `kit/build/nuevos.py` — ejemplo de lanzamiento de productos nuevos: carrusel + historias.
-- `kit/build/reel.py` — reel animado 9:16 de 15 s (animaciones CSS renderizadas cuadro a cuadro + ffmpeg). Salida en `Reels/`. Los reels se publican con `autoPublish: false` para que el dueño agregue música en Instagram.
+- `kit/build/reel.py` — reel animado 9:16 de 15 s (animaciones CSS renderizadas cuadro a cuadro + ffmpeg). Salida en `Reels/Por_subir/`. Los reels se publican con `autoPublish: false` para que el dueño agregue música en Instagram.
 - `kit/build/reel_proteina.py` — ejemplo de reel educativo (no centrado en productos) que reutiliza `reel.py` reemplazando `body()`. Ideas: cálculos, mitos, tips de entrenamiento, comparativas; remate breve con producto al final.
 - `kit/build/destacadas.py` — portadas de destacadas (diseño centrado en un círculo de 500 px) e historias fijas "Cómo comprar" y "Cómo te llega". Salida en `Destacadas/`.
 
@@ -111,13 +111,14 @@ Mezcla en cada caption (máximo 8): 2 grandes, 3 de nicho y 3 locales. Grandes: 
 
 ## Estructura del repositorio
 
-- `Feed/` — publicaciones del feed: `Feed/AAAA-MM-DD/` por fecha y `Feed/catalogo/`.
-- `Historias/` — historias: `Historias/AAAA-MM-DD/` por fecha, series reutilizables y `stock_disponible.jpg`.
+- `Feed/` — publicaciones del feed: `Feed/AAAA-MM-DD/` por fecha y `Feed/Catalogo/`.
+- `Historias/` — historias: `Historias/AAAA-MM-DD/` por fecha, `Historias/Series/` reutilizables y `Fijas/stock_disponible.jpg`.
 - `Destacadas/` — portadas e historias fijas de las destacadas.
 - `Fotos/` — fotos de producto 4:5 sobre negro.
-- `Reels/` — reels animados (mp4).
+- `Reels/` — reels: `Reels/Por_subir/` (listos, nombre `AAAA-MM-DD_tema.mp4` con la fecha en que tocan), `Reels/Publicados/` (se mueven ahí al entregarlos) y `Reels/banco.md` (texto de cada uno).
 - `Robot/` — robot de publicación gratis (cola.json, scripts) y `.github/workflows/`.
 - `kit/` — scripts, fuentes, íconos e imágenes recortadas (`kit/build/p_*.png`).
+- `CLAUDE.md` (guía), `registro.md` (lo publicado), `README.md` (mapa para el dueño) son los únicos archivos en la raíz.
 Mantén este orden: nada suelto en la raíz, nombres de carpeta con mayúscula inicial, y borra versiones descartadas.
 
 ## Innovar siempre
