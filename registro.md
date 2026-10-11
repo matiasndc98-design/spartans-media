@@ -14,3 +14,7 @@
 - 2026-10-11 · reel · nuevo_stock regenerado sin precios (dato clave por producto) e ISO 100 mejorado (proporción y volumen) · Reels/nuevo_stock.mp4
 - 2026-10-11 · ajuste · barra Space Protein recortada de nuevo desde la foto completa (con XXL y ambos sellos): reel, carrusel, historias y Fotos/barra.jpg
 - 2026-10-11 · ajuste · reel nuevo_stock: cada producto 2,5 s (antes 1,5 s), total 21,2 s — pedido del dueño
+- 2026-10-11 · reel · comparativa de creatinas con barras (USN/MuscleTech/Finaflex, días que dura) · Reels/creatinas_comparativa.mp4 · para jue 15 oct
+- 2026-10-11 · reel · lista "3 errores con la creatina" (dosis, constancia, entrenar) · Reels/errores_creatina.mp4 · para sáb 17 oct
+- 2026-10-11 · reel · POV batería baja → plan de energía + Guaraná Shot · Reels/pov_energia.mp4 · para sáb 25 oct
+- 2026-10-11 · ajuste · Metricool solo para carruseles (cupo gratis 20/mes, octubre agotado); historias y reels se entregan al dueño

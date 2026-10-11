@@ -69,6 +69,14 @@ Ejecuta los scripts desde `kit/build` (rutas relativas). Revisa SIEMPRE el rende
 
 ## Cómo publicar
 
+**Regla principal: Metricool se usa lo mínimo (plan gratis = 20 publicaciones al mes, se reinicia el día 1).** Decisión del dueño.
+- **El dueño sube a mano:** todas las historias y todos los reels. La tarea diaria se los entrega el día anterior: manda cada archivo con `SendUserFile` (en orden, nombre con número de orden) y un `SendUserMessage` con "QUÉ SUBIR MAÑANA": hora, orden de las historias, texto (caption) de cada reel, sugerencia de música y qué sticker poner en las interactivas.
+- **Metricool solo para carruseles del feed** (lunes y viernes 10 AM, autoPublish true), porque ahí sirve que salgan solos a la hora óptima. Máximo ~10 al mes. Antes de programar, cuenta con `getScheduledPosts` (desde el día 1 del mes) las publicaciones ya publicadas o pendientes no borrador; si llegan a 18, el carrusel también se entrega al dueño a mano.
+- Octubre 2026 ya gastó su cupo (20): hasta el 1 de noviembre todo se entrega a mano.
+- Banco de reels listos con su texto: `Reels/banco.md`. Úsalo antes de crear un reel nuevo y mueve a "Publicados" lo entregado.
+
+Si se programa en Metricool:
+
 1. Guarda los JPG (calidad 90) en `Historias/AAAA-MM-DD/` o `Feed/AAAA-MM-DD/`, haz commit y push a `main`.
 2. URL para Metricool: `https://raw.githubusercontent.com/matiasndc98-design/spartans-media/main/<ruta>`.
 3. `createScheduledPost` con `blogId 7278335`, `providers [{"network":"instagram"}]`, `publicationDate {dateTime, timezone:"America/Santiago"}`.
@@ -87,7 +95,7 @@ Ejecuta los scripts desde `kit/build` (rutas relativas). Revisa SIEMPRE el rende
 | --- | --- | --- | --- |
 | Lunes | Carrusel educativo | Encuesta / tema de la semana | 10:00 |
 | Martes | Reel animado educativo | Pregunta frecuente | 18:00 |
-| Miércoles | — | Producto de la semana con precio | 10:00 |
+| Miércoles | — | Producto de la semana (sin precio) | 10:00 |
 | Jueves | Reel animado (producto o comparativa) | Detrás de la tienda | 18:00 |
 | Viernes | Carrusel de producto o comparativa | Combo / promoción real | 10:00 |
 | Sábado | Reel animado educativo | Quiz o "esto o esto" | 10:00 |
@@ -95,7 +103,7 @@ Ejecuta los scripts desde `kit/build` (rutas relativas). Revisa SIEMPRE el rende
 
 Temas: semana 11–17 oct creatina (incluye Finaflex 1 kg); 18–24 oct proteína (Whey USN, ISO 100, Nitro Tech, barra Space Protein); 25–31 oct energía para entrenar (Lipo 6, Guaraná Shot); 1–7 nov base y constancia (multivitamínico, Omega 3, stacks). El 11 oct se publicó el lanzamiento de los productos nuevos. Plan detallado: https://claude.ai/code/artifact/1d8386c5-c08a-4f94-b6d2-ec741c11f133
 
-Reels: animados con `kit/build/reel.py` (base) siguiendo el formato de `reel_proteina.py`, que al dueño le encantó: gancho con pregunta → dato con fuente → ejemplo concreto → cómo aplicarlo → remate breve con producto y "Guárdalo y escríbenos". 15–18 s, sin música, `type: REEL` y `autoPublish: false` para que el dueño agregue música en Instagram. En reels de producto, cada producto en pantalla 2,5 s (decisión del dueño). Cada reel nuevo debe mejorar algo respecto del anterior (ritmo, gancho, transición o dato). Si el dueño manda video real, se edita y se prioriza. Las historias interactivas van en modo aviso (`autoPublish: false`, ver Cómo publicar) para que el dueño agregue el sticker.
+Reels: animados con `kit/build/reel.py` (base). **Variar el tipo** (pedido del dueño), sin repetir el mismo tipo dos veces seguidas: educativo con cálculo (`reel_proteina.py`, el que más le gustó: gancho con pregunta → dato con fuente → ejemplo → cómo aplicarlo → remate con producto), comparativa con barras (`reel_creatinas.py`), lista de errores para guardar (`reel_errores_creatina.py`), POV con batería (`reel_pov_energia.py`), lanzamiento de productos (`reel.py`). Otras ideas: mito o verdad rápido, antes de entrenar vs después, "esto o esto", checklist del bolso del gym, cuenta regresiva. 15–21 s, sin música (el dueño la agrega), se entregan al dueño para que los suba a mano. En reels de producto, cada producto en pantalla 2,5 s (decisión del dueño). Cada reel nuevo debe mejorar algo respecto del anterior (ritmo, gancho, transición o dato). Si el dueño manda video real, se edita y se prioriza. Las historias interactivas van en modo aviso (`autoPublish: false`, ver Cómo publicar) para que el dueño agregue el sticker.
 
 ## Hashtags
 
