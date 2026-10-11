@@ -5,7 +5,7 @@ Todo el material de @spartan_fitness_spa, ordenado por tipo.
 | Carpeta | Qué hay |
 | --- | --- |
 | `Feed/AAAA-MM-DD/` | Carruseles del feed por fecha de publicación |
-| `Feed/Catalogo/` | Carrusel de catálogo con precios |
+| `Feed/Catalogo/` | Catálogo completo: portada, una lámina por producto (12) y cómo comprar. Sin precios |
 | `Historias/AAAA-MM-DD/` | Historias por fecha, en orden de subida |
 | `Historias/Series/` | Series reutilizables (ej. `Creatina/`) |
 | `Historias/Fijas/` | Historias que se pueden repetir (stock disponible) |
