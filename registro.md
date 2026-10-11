@@ -10,3 +10,5 @@
 | 2026-10-11 | Reel animado (15 s) | Nuevo stock: 6 productos nuevos con precio | Reels/nuevo_stock.mp4 |
 | 2026-10-13 | Reel animado (17 s) | Educativo: ¿cuánta proteína necesitas al día? (1,4–2 g/kg, ISSN; ejemplo 70 kg; equivalencias) | Reels/cuanta_proteina.mp4 |
 - 2026-10-11 · ajuste · historias sin precio (serie_creatina s5 → s5_cuanto_dura; 2026-10-11 h3–h5 sin precios) · regla nueva en CLAUDE.md
+- 2026-10-11 · ajuste · historias sin numeración (serie_creatina y 2026-10-11 regeneradas)
+- 2026-10-11 · reel · nuevo_stock regenerado sin precios (dato clave por producto) e ISO 100 mejorado (proporción y volumen) · Reels/nuevo_stock.mp4

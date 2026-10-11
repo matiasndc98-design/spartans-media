@@ -72,7 +72,7 @@ DONE = "<script>document.fonts.ready.then(()=>document.body.dataset.ok=1)</scrip
 
 
 def sp(body, seed, n, tot=5):
-    b = f'<div class="brand"><img src="{gen.HELMET}"><div>SPARTANS<small>SUPLEMENTOS</small></div></div><div class="prog">{n}<span>/{tot}</span></div>'
+    b = f'<div class="brand"><img src="{gen.HELMET}"><div>SPARTANS<small>SUPLEMENTOS</small></div></div>'  # sin numeración (decisión del dueño)
     return f'<html><head><style>{SCSS}</style></head><body>{FX.replace("SEED", str(seed))}{b}{body}{DONE}</body></html>'
 
 

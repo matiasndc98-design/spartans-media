@@ -27,7 +27,7 @@ body{{width:1080px;height:1920px;background:#060504;overflow:hidden;font-family:
 .tap b{{color:{OR};font-weight:400}}
 """
 def page(body,seed,n=None,tot=7):
-    pr=f'<div class="prog">{n}<span>/{tot}</span></div>' if n else ''
+    pr=''  # sin numeración (decisión del dueño)
     b=f'<div class="brand"><img src="{gen.HELMET}"><div>SPARTANS<small>SUPLEMENTOS</small></div></div>'
     return f'<html><head><style>{CSS}</style></head><body>{FX.replace("SEED",str(seed))}{b}{pr}{body}<script>document.fonts.ready.then(()=>document.body.dataset.ok=1)</script></body></html>'
 

@@ -1,6 +1,6 @@
 """Reel animado 9:16 (1080x1920, 30 fps) con animaciones CSS renderizadas cuadro a cuadro.
 Uso (desde kit/build): python3 reel.py <salida.mp4>
-Escenas: gancho "LLEGÓ ALGO NUEVO" -> un producto por escena con precio -> cierre con todos y llamado al DM.
+Escenas: gancho "LLEGÓ ALGO NUEVO" -> un producto por escena con su dato clave (sin precio) -> cierre con todos y llamado al DM.
 Sin música: el dueño la agrega en Instagram (publicar con autoPublish false).
 """
 import sys, os, subprocess, tempfile, shutil
@@ -13,13 +13,13 @@ OR = '#F26A1B'
 W, H, FPS = 1080, 1920, 30
 I = lambda n: gen.uri(os.path.join(gen.B, n))
 
-PRODS = [  # imagen, nombre, detalle, precio
-    ('p_iso100.png', 'ISO 100', 'Dymatize · 5 lb · 25 g proteína', '$149.990'),
-    ('p_nitro.png', 'NITRO TECH', 'MuscleTech · 4 lb · 30 g proteína', '$99.990'),
-    ('p_finaflex.png', 'CREATINA 1 KG', 'Finaflex · 200 porciones', '$49.990'),
-    ('p_omega.png', 'OMEGA 3', 'USN · 90 cápsulas · 1000 mg', '$16.990'),
-    ('p_guarana.png', 'GUARANÁ SHOT', 'OstroVit · 200 mg cafeína', '$2.490'),
-    ('p_barra.png', 'BARRA XXL', 'Space Protein · 36% proteína', '$2.490'),
+PRODS = [  # imagen, nombre, detalle, dato destacado (sin precios: decisión del dueño)
+    ('p_iso100.png', 'ISO 100', 'Dymatize · 5 lb · Cocoa Pebbles', '25 G PROTEÍNA'),
+    ('p_nitro.png', 'NITRO TECH', 'MuscleTech · 4 lb · vainilla', '30 G PROTEÍNA'),
+    ('p_finaflex.png', 'CREATINA 1 KG', 'Finaflex · micronizada · NSF', '200 PORCIONES'),
+    ('p_omega.png', 'OMEGA 3', 'USN · 90 cápsulas blandas', '1000 MG'),
+    ('p_guarana.png', 'GUARANÁ SHOT', 'OstroVit · 80 ml · sabor pera', '200 MG CAFEÍNA'),
+    ('p_barra.png', 'BARRA XXL', 'Space Protein · 80 g · coco', '36% PROTEÍNA'),
 ]
 T0, STEP = 2.6, 1.55          # inicio de productos y duración de cada uno
 TEND = T0 + STEP * len(PRODS)  # inicio del cierre
@@ -68,7 +68,7 @@ def body():
 <div style="position:absolute;top:1000px;left:0;right:0;height:380px;display:flex;align-items:flex-end;justify-content:center;animation:rise 1.2s ease-out 1s both">{sil}</div>
 <div class="big" style="position:absolute;top:1470px;left:0;right:0;text-align:center;font-size:64px;animation:pulse 1s ease-in-out 1.4s 2 both">👀 MIRA</div></div>'''
     # Escenas de producto
-    for k, (img, name, det, price) in enumerate(PRODS):
+    for k, (img, name, det, tag) in enumerate(PRODS):
         t = T0 + k * STEP
         wide = img == 'p_barra.png'
         ims = 'width:760px;transform:rotate(-10deg)' if wide else 'height:760px'
@@ -81,7 +81,7 @@ def body():
 <div style="position:absolute;top:700px;left:0;right:0;height:820px;display:flex;align-items:center;justify-content:center;animation:rise .8s ease-out {t + .1}s both">
  <img src="{I(img)}" style="{ims};filter:drop-shadow(0 34px 30px #000);animation:drift {STEP}s ease-in-out {t}s both"></div>
 <div style="position:absolute;top:1430px;left:0;right:0;text-align:center;animation:pop .55s ease-out {t + .45}s both">
- <span class="big" style="display:inline-block;background:{OR};color:#0b0705;font-size:130px;padding:14px 46px 0;border-radius:18px;box-shadow:0 0 50px rgba(242,106,27,.6)">{price}</span></div>{note}</div>'''
+ <span class="big" style="display:inline-block;background:{OR};color:#0b0705;font-size:110px;padding:14px 46px 0;border-radius:18px;box-shadow:0 0 50px rgba(242,106,27,.6)">{tag}</span></div>{note}</div>'''
     # Cierre
     grid = ''.join(f'<div style="display:flex;align-items:flex-end;justify-content:center;height:300px;animation:rise .7s ease-out {TEND + .1 + k * .08}s both">'
                    f'<img src="{I(p[0])}" style="{"width:260px;transform:rotate(-10deg)" if p[0] == "p_barra.png" else "max-height:290px;max-width:280px"};filter:drop-shadow(0 18px 14px #000)"></div>'
