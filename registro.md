@@ -21,3 +21,4 @@
 - 2026-10-11 · ajuste · reels con sonido original (efectos + base rítmica, kit/build/sonido.py): cuanta_proteina, creatinas_comparativa, errores_creatina, pov_energia regenerados
 - 2026-10-11 · ajuste · reels solo con efectos (sin base rítmica): la música la pone el dueño
 - 2026-10-11 · orden · carpetas reorganizadas (Feed/Catalogo, Historias/Series/Creatina, Historias/Fijas, Reels/Por_subir y Reels/Publicados), README con mapa
+- 2026-10-11 · historias · el dueño subió a mano h3_proteinas, h4_finaflex, h5_al_paso (versión sin precio) ~3:30 PM
