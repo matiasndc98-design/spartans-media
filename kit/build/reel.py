@@ -21,7 +21,7 @@ PRODS = [  # imagen, nombre, detalle, dato destacado (sin precios: decisión del
     ('p_guarana.png', 'GUARANÁ SHOT', 'OstroVit · 80 ml · sabor pera', '200 MG CAFEÍNA'),
     ('p_barra.png', 'BARRA XXL', 'Space Protein · 80 g · coco', '36% PROTEÍNA'),
 ]
-T0, STEP = 2.6, 1.55          # inicio de productos y duración de cada uno
+T0, STEP = 2.6, 3.55          # inicio de productos y duración de cada uno
 TEND = T0 + STEP * len(PRODS)  # inicio del cierre
 DUR = TEND + 3.6
 

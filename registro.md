@@ -13,3 +13,4 @@
 - 2026-10-11 · ajuste · historias sin numeración (serie_creatina y 2026-10-11 regeneradas)
 - 2026-10-11 · reel · nuevo_stock regenerado sin precios (dato clave por producto) e ISO 100 mejorado (proporción y volumen) · Reels/nuevo_stock.mp4
 - 2026-10-11 · ajuste · barra Space Protein recortada de nuevo desde la foto completa (con XXL y ambos sellos): reel, carrusel, historias y Fotos/barra.jpg
+- 2026-10-11 · ajuste · reel nuevo_stock: cada producto 3,5 s (antes 1,5 s), total 27,5 s — al dueño le pareció muy rápido
