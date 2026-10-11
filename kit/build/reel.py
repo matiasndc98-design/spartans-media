@@ -1,7 +1,7 @@
 """Reel animado 9:16 (1080x1920, 30 fps) con animaciones CSS renderizadas cuadro a cuadro.
 Uso (desde kit/build): python3 reel.py <salida.mp4>
 Escenas: gancho "LLEGÓ ALGO NUEVO" -> un producto por escena con su dato clave (sin precio) -> cierre con todos y llamado al DM.
-Sonido original (sonido.py): efectos sincronizados con las animaciones + base rítmica. El dueño puede bajarle el volumen y agregar música en Instagram.
+Sonido original (sonido.py): solo efectos sincronizados con las animaciones; la música la pone el dueño en Instagram.
 """
 import sys, os, subprocess, tempfile, shutil
 sys.path.insert(0, '.')

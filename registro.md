@@ -19,3 +19,4 @@
 - 2026-10-11 · reel · POV batería baja → plan de energía + Guaraná Shot · Reels/pov_energia.mp4 · para sáb 25 oct
 - 2026-10-11 · ajuste · Metricool solo para carruseles (cupo gratis 20/mes, octubre agotado); historias y reels se entregan al dueño
 - 2026-10-11 · ajuste · reels con sonido original (efectos + base rítmica, kit/build/sonido.py): cuanta_proteina, creatinas_comparativa, errores_creatina, pov_energia regenerados
+- 2026-10-11 · ajuste · reels solo con efectos (sin base rítmica): la música la pone el dueño

@@ -98,7 +98,7 @@ def base(dur, bpm=140, vol=0.32):
     return out[:int(SR * dur)] * vol
 
 
-def pista(eventos, dur, salida, con_base=True):
+def pista(eventos, dur, salida, con_base=False):
     out = np.zeros(int(SR * dur) + SR * 2)
     usados = []
     for s, nombre in sorted(eventos):
