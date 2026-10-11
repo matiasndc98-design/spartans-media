@@ -101,7 +101,7 @@ def product_slide(d, seed):
     note = f'<div class="note">{d["note"]}</div>' if d.get('note') else ''
     return (f'<html><head><style>{CSS}</style></head><body>{FX.replace("SEED", str(seed))}<div class="stripes"></div>'
             f'<div class="glow"></div><div class="ped"></div>'
-            f'<div class="prod" style="height:{d.get("h", 820)}px;top:{1100 - d.get("h", 820)}px"><img src="{uri(os.path.join(B, d["img"]))}"></div>'
+            f'<div class="prod" style="height:{d.get("h", 820)}px;top:{1100 - d.get("h", 820)}px;align-items:{d.get("align", "flex-end")}"><img src="{uri(os.path.join(B, d["img"]))}" style="{d.get("imgstyle", "")}"></div>'
             f'{header()}<div class="h1"><div class="a">{d["a"]}</div><div class="b">{d["b"]}</div><div class="c">{d["c"]}</div></div>'
             f'<div class="ben">{rows}</div><div class="price"><div class="lb">PRECIO</div><div class="v">{d["price"]}</div></div>'
             f'{note}{bar_html()}{FIT}</body></html>')

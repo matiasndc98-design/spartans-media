@@ -12,3 +12,4 @@
 - 2026-10-11 · ajuste · historias sin precio (serie_creatina s5 → s5_cuanto_dura; 2026-10-11 h3–h5 sin precios) · regla nueva en CLAUDE.md
 - 2026-10-11 · ajuste · historias sin numeración (serie_creatina y 2026-10-11 regeneradas)
 - 2026-10-11 · reel · nuevo_stock regenerado sin precios (dato clave por producto) e ISO 100 mejorado (proporción y volumen) · Reels/nuevo_stock.mp4
+- 2026-10-11 · ajuste · barra Space Protein recortada de nuevo desde la foto completa (con XXL y ambos sellos): reel, carrusel, historias y Fotos/barra.jpg

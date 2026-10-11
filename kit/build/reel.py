@@ -71,7 +71,7 @@ def body():
     for k, (img, name, det, tag) in enumerate(PRODS):
         t = T0 + k * STEP
         wide = img == 'p_barra.png'
-        ims = 'width:760px;transform:rotate(-10deg)' if wide else 'height:760px'
+        ims = 'width:940px' if wide else 'height:760px'
         note = ('<div style="position:absolute;top:1620px;left:70px;right:70px;text-align:center;font-size:24px;color:#aaa">Contiene cafeína (200 mg por shot). No apto para menores ni embarazadas.</div>' if img == 'p_guarana.png' else '')
         b += f'''<div class="flash" style="animation:flash .35s ease-out {t}s forwards"></div>
 <div class="sc" style="animation:show {STEP}s linear {t}s both"><div class="glow"></div>
@@ -84,7 +84,7 @@ def body():
  <span class="big" style="display:inline-block;background:{OR};color:#0b0705;font-size:110px;padding:14px 46px 0;border-radius:18px;box-shadow:0 0 50px rgba(242,106,27,.6)">{tag}</span></div>{note}</div>'''
     # Cierre
     grid = ''.join(f'<div style="display:flex;align-items:flex-end;justify-content:center;height:300px;animation:rise .7s ease-out {TEND + .1 + k * .08}s both">'
-                   f'<img src="{I(p[0])}" style="{"width:260px;transform:rotate(-10deg)" if p[0] == "p_barra.png" else "max-height:290px;max-width:280px"};filter:drop-shadow(0 18px 14px #000)"></div>'
+                   f'<img src="{I(p[0])}" style="{"width:290px;transform:rotate(-10deg)" if p[0] == "p_barra.png" else "max-height:290px;max-width:280px"};filter:drop-shadow(0 18px 14px #000)"></div>'
                    for k, p in enumerate(PRODS))
     b += f'''<div class="flash" style="animation:flash .35s ease-out {TEND}s forwards"></div>
 <div class="sc" style="animation:showEnd {DUR - TEND}s linear {TEND}s both"><div class="glow" style="top:560px"></div>

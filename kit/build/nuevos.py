@@ -23,7 +23,7 @@ P = [
     dict(name='06_guarana', img='p_guarana.png', h=760, a='Energía en', b='UN SHOT.', c='OstroVit Guaraná Shot<br>80 ml · sabor pera', price='$2.490',
          note='Contiene cafeína (200 mg por shot). No apto para menores ni embarazadas.',
          ben=[('bolt', '200 mg de cafeína', 'por shot'), ('bottle', '80 ml', 'listo para tomar'), ('flame', 'Sabor pera', 'antes de entrenar')]),
-    dict(name='07_barra', img='p_barra.png', h=300, a='Proteína', b='AL PASO.', c='Space Protein XXL<br>80 g · coco', price='$2.490',
+    dict(name='07_barra', img='p_barra.png', h=760, align='center', imgstyle='max-width:none;max-height:none;width:760px;transform:rotate(-68deg)', a='Proteína', b='AL PASO.', c='Space Protein XXL<br>80 g · coco', price='$2.490',
          ben=[('barbell', '36% proteína', 'barra de 80 g'), ('heart', '3 g de azúcar', 'por barra'), ('star', 'Sabor coco', 'tamaño XXL')]),
 ]
 NEW = ['p_iso100.png', 'p_nitro.png', 'p_finaflex.png', 'p_omega.png', 'p_guarana.png', 'p_barra.png']
