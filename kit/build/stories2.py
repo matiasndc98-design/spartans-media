@@ -58,22 +58,22 @@ for k,(m,r) in enumerate(MYTHS):
 </div>
 <img src="{I(['p_usn_crea.png','p_mt_uva.png','p_mt_sin.png'][k])}" style="position:absolute;right:40px;top:1390px;height:430px;transform:rotate({[-10,8,-6][k]}deg);filter:drop-shadow(0 30px 30px #000)"><div class="tap" style="text-align:left;left:70px">SIGUE <b>→</b></div>''',300+k*17,k+2)))
 # 5 cost per day
-rows=[('p_usn_crea.png','Creatina USN','$25.000 · 60 porciones','$417'),('p_mt_sin.png','MuscleTech sin sabor','$39.000 · 80 porciones','$488'),('p_mt_uva.png','MuscleTech uva','$43.000 · 60 porciones','$717')]
+rows=[('p_usn_crea.png','Creatina USN','300 g · 60 porciones','60'),('p_mt_sin.png','MuscleTech sin sabor','400 g · 80 porciones','80'),('p_finaflex.png','Finaflex','1 kg · 200 porciones','200')]
 rh=''.join(f'''<div class="card" style="display:flex;align-items:center;gap:30px;padding:26px 34px;margin-bottom:26px">
  <img src="{I(i)}" style="height:190px;filter:drop-shadow(0 10px 10px #000)">
  <div style="flex:1"><div style="font-weight:800;font-size:40px;text-transform:uppercase">{a}</div><div class="fine">{b}</div></div>
- <div style="text-align:right"><div class="big o" style="font-size:110px">{c}</div><div class="fine" style="margin-top:-6px">AL DÍA</div></div></div>''' for i,a,b,c in rows)
-pages.append(('s5_costo_dia',page(f'''
+ <div style="text-align:right"><div class="big o" style="font-size:110px">{c}</div><div class="fine" style="margin-top:-6px">DÍAS</div></div></div>''' for i,a,b,c in rows)
+pages.append(('s5_cuanto_dura',page(f'''
 <div style="position:absolute;top:400px;left:70px;right:70px">
- <div class="big" style="font-size:140px">¿CUÁNTO TE</div><div class="big" style="font-size:140px">CUESTA <span class="o">AL DÍA?</span></div>
- <div class="fine" style="margin-top:18px;font-size:32px;color:#ccc">Precio dividido por las porciones de cada envase</div>
+ <div class="big" style="font-size:140px">¿CUÁNTO TE</div><div class="big" style="font-size:140px">DURA <span class="o">TU CREATINA?</span></div>
+ <div class="fine" style="margin-top:18px;font-size:32px;color:#ccc">Tomando 5 g al día, todos los días</div>
 </div>
 <div style="position:absolute;top:800px;left:60px;right:60px">{rh}</div>
-<div style="position:absolute;top:1650px;left:0;right:0;text-align:center"><div class="kick" style="font-size:66px">MENOS QUE UN CAFÉ ☕</div></div>''',555,5)))
+<div style="position:absolute;top:1650px;left:0;right:0;text-align:center"><div class="kick" style="font-size:60px">ESCRÍBENOS "CREATINA" 📩</div></div>''',555,5)))
 # 6 stack
-st=[('flame','VOLUMEN',['p_whey.png','p_mt_sin.png'],'Whey + Creatina MuscleTech','$109.000'),
-    ('bolt','DEFINICIÓN',['p_lipo.png','p_whey.png'],'Lipo 6 + Whey USN','$100.000'),
-    ('heart','SALUD BASE',['p_multi.png','p_usn_crea.png'],'Multivitamínico + Creatina USN','$55.000')]
+st=[('flame','VOLUMEN',['p_whey.png','p_mt_sin.png'],'Whey + Creatina MuscleTech','🎁'),
+    ('bolt','DEFINICIÓN',['p_lipo.png','p_whey.png'],'Lipo 6 + Whey USN','📩'),
+    ('heart','SALUD BASE',['p_multi.png','p_usn_crea.png'],'Multivitamínico + Creatina USN','🎁')]
 sh=''.join(f'''<div class="card" style="display:flex;align-items:center;gap:22px;padding:22px 30px;margin-bottom:24px">
  <div style="display:flex;align-items:flex-end">{''.join(f'<img src="{I(x)}" style="height:{170 if j==0 else 140}px;margin-right:-26px;filter:drop-shadow(0 10px 10px #000)">' for j,x in enumerate(ims))}</div>
  <div style="flex:1;margin-left:36px"><div style="display:flex;align-items:center;gap:10px;color:{OR}">{ic(icn,40)}<span class="big" style="font-size:66px">{t}</span></div><div style="font-weight:600;font-size:30px;text-transform:uppercase">{d}</div></div>

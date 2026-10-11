@@ -9,3 +9,4 @@
 | 2026-10-10 | Historia (1) | Teaser "Mañana 10 AM llega algo nuevo" con siluetas (cuenta regresiva del lanzamiento) | Historias/2026-10-10/teaser_manana_10am.jpg |
 | 2026-10-11 | Reel animado (15 s) | Nuevo stock: 6 productos nuevos con precio | Reels/nuevo_stock.mp4 |
 | 2026-10-13 | Reel animado (17 s) | Educativo: ¿cuánta proteína necesitas al día? (1,4–2 g/kg, ISSN; ejemplo 70 kg; equivalencias) | Reels/cuanta_proteina.mp4 |
+- 2026-10-11 · ajuste · historias sin precio (serie_creatina s5 → s5_cuanto_dura; 2026-10-11 h3–h5 sin precios) · regla nueva en CLAUDE.md

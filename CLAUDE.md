@@ -49,7 +49,7 @@ Productos nuevos que lleguen: no publicarlos hasta que el dueño mande imagen y 
 
 ## Identidad visual
 
-Fondo negro (#060504) con brasas naranjas, naranjo Spartans #F26A1B, blanco. Títulos en Bebas Neue, textos en Barlow Condensed (mayúsculas). Casco naranjo (kit/build/helmet.png) + "SPARTANS" arriba. Feed 1080×1350 (4:5); historias 1080×1920 con lo importante fuera de los 250 px superiores e inferiores. Historias numeradas (2/5). No repetir el mismo formato en feed e historias; evitar que todo parezca catálogo.
+Fondo negro (#060504) con brasas naranjas, naranjo Spartans #F26A1B, blanco. Títulos en Bebas Neue, textos en Barlow Condensed (mayúsculas). Casco naranjo (kit/build/helmet.png) + "SPARTANS" arriba. Feed 1080×1350 (4:5); historias 1080×1920 con lo importante fuera de los 250 px superiores e inferiores. Historias numeradas (2/5). **Historias sin precios de productos** (decisión del dueño): en historias usar beneficios, datos (gramos, porciones, días que dura) y llamado al DM; los precios van solo en carruseles de catálogo del feed, reels de producto y la destacada Precios. El costo de delivery ($1.500) sí puede aparecer. No repetir el mismo formato en feed e historias; evitar que todo parezca catálogo.
 
 ## Cómo generar imágenes
 

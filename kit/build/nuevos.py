@@ -99,14 +99,14 @@ def stories():
 {fan("", 1530)}<img src="{I(NEW[5])}" style="position:absolute;left:560px;top:560px;width:460px;transform:rotate(-14deg);filter:drop-shadow(0 14px 14px rgba(0,0,0,.85))">
 <div style="position:absolute;bottom:230px;left:0;right:0;text-align:center"><div class="big" style="font-size:52px">ISO 100 · NITRO TECH · FINAFLEX · OMEGA 3 · GUARANÁ · BARRAS</div></div>''', 72, 2)))
     # 3 esto o esto: proteínas
-    def col(img, name, rows, price):
+    def col(img, name, rows, price=''):
         r = ''.join(f'<div style="display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.12)"><span style="color:#bbb;font-weight:600;font-size:28px;text-transform:uppercase">{a}</span><span class="big" style="font-size:44px">{b}</span></div>' for a, b in rows)
         return f'''<div class="card" style="flex:1;padding:24px 26px;text-align:center"><img src="{I(img)}" style="height:380px;filter:drop-shadow(0 18px 14px #000)">
-<div class="big" style="font-size:58px;margin:10px 0 6px">{name}</div><div style="text-align:left">{r}</div><div class="big o" style="font-size:74px;margin-top:16px">{price}</div></div>'''
+<div class="big" style="font-size:58px;margin:10px 0 6px">{name}</div><div style="text-align:left">{r}</div></div>'''
     s.append(('h3_proteinas', sp(f'''<div style="position:absolute;top:390px;left:70px;right:70px"><div class="big" style="font-size:120px">¿CUÁL ES</div><div class="big o" style="font-size:150px">TU PROTEÍNA?</div></div>
 <div style="position:absolute;top:740px;left:50px;right:50px;display:flex;gap:26px">
-{col("p_iso100.png", "ISO 100", [("Proteína", "25 g"), ("Tipo", "ISOLATE"), ("Porciones", "71")], "$149.990")}
-{col("p_nitro.png", "NITRO TECH", [("Proteína", "30 g"), ("Extra", "+3 G CREATINA"), ("Tamaño", "4 LB")], "$99.990")}</div>
+{col("p_iso100.png", "ISO 100", [("Proteína", "25 g"), ("Tipo", "ISOLATE"), ("Porciones", "71")])}
+{col("p_nitro.png", "NITRO TECH", [("Proteína", "30 g"), ("Extra", "+3 G CREATINA"), ("Tamaño", "4 LB")])}</div>
 <div style="position:absolute;bottom:250px;left:0;right:0;text-align:center" class="big"><span style="font-size:48px">RESPONDE <span class="o">ISO</span> O <span class="o">NITRO</span> POR DM</span></div>''', 73, 3)))
     # 4 finaflex
     s.append(('h4_finaflex', sp(f'''<div class="glow" style="left:240px;top:760px;width:800px;height:900px"></div>
@@ -114,15 +114,15 @@ def stories():
 <div class="big" style="font-size:260px;margin-top:24px">1 KG</div><div class="big o" style="font-size:120px">200 PORCIONES</div></div>
 <img src="{I("p_finaflex.png")}" style="position:absolute;right:40px;top:830px;height:700px;transform:rotate(5deg);filter:drop-shadow(0 30px 30px #000)">
 <div style="position:absolute;left:70px;top:900px;width:430px">
- <div class="card" style="padding:30px 32px;margin-bottom:24px"><div style="font-weight:700;font-size:30px;color:#bbb">TE SALE A</div><div class="big o" style="font-size:120px">$250</div><div style="font-weight:700;font-size:30px;color:#bbb">AL DÍA</div></div>
- <div class="card" style="padding:26px 32px"><div class="big" style="font-size:96px">$49.990</div><div style="font-weight:600;font-size:26px;color:#bbb;text-transform:uppercase">Finaflex · micronizada · NSF</div></div></div>
+ <div class="card" style="padding:30px 32px;margin-bottom:24px"><div style="font-weight:700;font-size:30px;color:#bbb">TE DURA</div><div class="big o" style="font-size:120px">+6 MESES</div><div style="font-weight:700;font-size:30px;color:#bbb">TOMANDO 5 G AL DÍA</div></div>
+ <div class="card" style="padding:26px 32px"><div class="big" style="font-size:72px">MICRONIZADA</div><div style="font-weight:600;font-size:26px;color:#bbb;text-transform:uppercase">Finaflex · certificada NSF</div></div></div>
 <div style="position:absolute;bottom:250px;left:0;right:0;text-align:center" class="big"><span style="font-size:50px">ESCRÍBENOS <span class="o">"CREATINA"</span> POR DM</span></div>''', 74, 4)))
     # 5 al paso
     s.append(('h5_al_paso', sp(f'''<div style="position:absolute;top:400px;left:70px;right:70px"><div class="big" style="font-size:150px">PARA ANTES</div><div class="big o" style="font-size:150px;text-shadow:0 0 40px rgba(242,106,27,.45)">Y DESPUÉS</div></div>
 <div class="glow" style="left:90px;top:800px;width:900px;height:800px"></div>
 <div style="position:absolute;top:760px;left:50px;right:50px;display:flex;gap:26px">
- <div class="card" style="flex:1;padding:28px;text-align:center"><div class="big o" style="font-size:44px">ANTES DE ENTRENAR</div><img src="{I("p_guarana.png")}" style="height:440px;margin:16px 0;filter:drop-shadow(0 18px 14px #000)"><div class="big" style="font-size:52px">GUARANÁ SHOT</div><div class="big o" style="font-size:84px">$2.490</div></div>
- <div class="card" style="flex:1;padding:28px;text-align:center;display:flex;flex-direction:column;align-items:center"><div class="big o" style="font-size:44px">DESPUÉS O DE COLACIÓN</div><div style="flex:1;display:flex;align-items:center"><img src="{I("p_barra.png")}" style="width:400px;transform:rotate(-12deg);filter:drop-shadow(0 18px 14px #000)"></div><div class="big" style="font-size:52px">BARRA XXL COCO</div><div class="big o" style="font-size:84px">$2.490</div></div></div>
+ <div class="card" style="flex:1;padding:28px;text-align:center"><div class="big o" style="font-size:44px">ANTES DE ENTRENAR</div><img src="{I("p_guarana.png")}" style="height:440px;margin:16px 0;filter:drop-shadow(0 18px 14px #000)"><div class="big" style="font-size:52px">GUARANÁ SHOT</div><div class="big o" style="font-size:52px">200 MG CAFEÍNA</div></div>
+ <div class="card" style="flex:1;padding:28px;text-align:center;display:flex;flex-direction:column;align-items:center"><div class="big o" style="font-size:44px">DESPUÉS O DE COLACIÓN</div><div style="flex:1;display:flex;align-items:center"><img src="{I("p_barra.png")}" style="width:400px;transform:rotate(-12deg);filter:drop-shadow(0 18px 14px #000)"></div><div class="big" style="font-size:52px">BARRA XXL COCO</div><div class="big o" style="font-size:52px">36% PROTEÍNA</div></div></div>
 <div style="position:absolute;top:1450px;left:70px;right:70px;text-align:center" class="note">Guaraná Shot contiene cafeína (200 mg por shot). No apto para menores ni embarazadas.</div>
 <div style="position:absolute;bottom:230px;left:0;right:0;text-align:center"><div class="kick" style="font-size:62px">PÍDELOS POR DM 📩</div><div style="font-weight:700;font-size:28px;margin-top:18px;color:#ddd">DELIVERY EN CALDERA $1.500 · ENVÍOS A TODO CHILE</div></div>''', 75, 5)))
     return s
