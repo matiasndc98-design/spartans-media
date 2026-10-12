@@ -235,7 +235,7 @@ def run(pages, out, h):
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={'width': 1080, 'height': h})
         for n, html in pages:
-            pg.set_content(html, wait_until='load'); pg.wait_for_selector('body[data-ok]'); pg.wait_for_timeout(300)
+            pg.set_content(gen.sin_emoji(html), wait_until='load'); pg.wait_for_selector('body[data-ok]'); pg.wait_for_timeout(300)
             png = os.path.join(out, n + '.png'); pg.screenshot(path=png)
             from PIL import Image
             Image.open(png).convert('RGB').save(png[:-4] + '.jpg', quality=90); os.remove(png); print(n)

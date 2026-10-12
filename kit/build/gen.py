@@ -111,7 +111,33 @@ def render(pages):
         b = p.chromium.launch()
         pg = b.new_page(viewport={'width': 1080, 'height': 1350})
         for name, html in pages:
-            pg.set_content(html, wait_until='load'); pg.wait_for_selector('body[data-ok]');pg.wait_for_timeout(300)
+            pg.set_content(sin_emoji(html), wait_until='load'); pg.wait_for_selector('body[data-ok]');pg.wait_for_timeout(300)
             pg.screenshot(path=os.path.join(OUT, name + '.png'))
             print(name)
         b.close()
+
+
+# Emojis: Chromium los dibuja con otra fuente (no la de iPhone) y se ven feos. Se reemplazan por íconos del kit.
+import re as _re
+_EMO = {'⏱': 'clock', '👇': ('arrow-right', 90), '👉': 'arrow-right', '📩': 'message-circle', '✉': 'message-circle',
+        '🔥': 'flame', '🔋': 'battery-charging', '🪫': 'alert-triangle', '💪': 'barbell', '⚡': 'bolt', '🎁': 'gift',
+        '⚠': 'alert-triangle', '🤔': 'question-mark', '✅': 'check', '🚫': 'x', '⏳': 'clock'}
+_EMO_RE = _re.compile('[\U0001F300-\U0001FAFF☀-➿⭐⏩-⏺⌚⌛]️?')
+
+
+def _ico(name, rot=0):
+    s = icon(name, 24).replace('width="24"', 'width="0.9em"').replace('height="24"', 'height="0.9em"')
+    tr = f'transform:rotate({rot}deg);' if rot else ''
+    return s.replace('<svg', f'<svg style="vertical-align:-0.08em;{tr}"', 1)
+
+
+def sin_emoji(html):
+    def rep(m):
+        ch = m.group(0).replace('️', '')
+        if ch == '✕':
+            return ch
+        v = _EMO.get(ch)
+        if v is None:
+            return ''
+        return _ico(*v) if isinstance(v, tuple) else _ico(v)
+    return _EMO_RE.sub(rep, html)

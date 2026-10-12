@@ -51,10 +51,10 @@ def esto_o_esto():
 
 def adivina():
     body = f'''{BRAND}<div style="position:absolute;top:260px;left:70px;right:70px"><span class="big" style="display:inline-block;background:{OR};color:#0b0705;font-size:56px;padding:8px 22px 0;border-radius:10px;transform:rotate(-3deg)">ADIVINA 🤔</span>
-<div class="big" style="font-size:118px;margin-top:22px">¿CUÁNTAS PORCIONES</div><div class="big o" style="font-size:118px">TRAE ESTE TARRO?</div></div>
+<div class="big" style="font-size:130px;margin-top:22px">¿CUÁNTO TE DURA</div><div class="big o" style="font-size:130px">ESTE TARRO?</div><div style="font-weight:700;font-size:32px;color:#ccc;text-transform:uppercase;margin-top:12px">Tomando 5 g al día, todos los días</div></div>
 <div style="position:absolute;left:-40px;right:-40px;top:560px;height:820px;display:flex;justify-content:center;align-items:center">
  <div style="position:absolute;width:820px;height:820px;border-radius:50%;background:radial-gradient(closest-side,rgba(242,106,27,.6),transparent)"></div>
- <img src="{I("p_finaflex.png")}" style="height:780px;position:relative;transform:rotate(-6deg);filter:drop-shadow(0 40px 40px #000)">
+ <img src="{I("p_finaflex.png")}" style="height:720px;position:relative;top:40px;transform:rotate(-6deg);filter:drop-shadow(0 40px 40px #000)">
  <div class="big" style="position:absolute;right:120px;top:40px;background:#fff;color:#0b0705;font-size:90px;padding:10px 26px 0;border-radius:16px;transform:rotate(8deg)">1 KG</div></div>
 <div class="sticker" style="top:1400px"></div>'''
     return page(body, seed=811)
@@ -62,11 +62,11 @@ def adivina():
 
 def respuesta():
     body = f'''{BRAND}<div style="position:absolute;top:300px;left:0;right:0;text-align:center"><div style="font-weight:800;font-size:40px;letter-spacing:6px;color:#3ccf6e">RESPUESTA</div></div>
-<div style="position:absolute;top:360px;left:0;right:0;text-align:center"><div class="big o" style="font-size:520px;line-height:.8;text-shadow:0 0 80px rgba(242,106,27,.7)">200</div>
-<div class="big" style="font-size:140px;margin-top:-10px">PORCIONES</div></div>
+<div style="position:absolute;top:370px;left:0;right:0;text-align:center"><div class="big o" style="font-size:480px;line-height:.8;text-shadow:0 0 80px rgba(242,106,27,.7)">+6</div>
+<div class="big" style="font-size:170px;margin-top:-6px">MESES</div></div>
 <div style="position:absolute;top:1000px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:30px">
  <img src="{I("p_finaflex.png")}" style="height:420px;filter:drop-shadow(0 30px 26px #000)">
- <div><div class="big" style="font-size:96px">+6 MESES</div><div style="font-weight:700;font-size:34px;color:#ddd;text-transform:uppercase;line-height:1.15">tomando 5 g<br>todos los días</div>
+ <div><div class="big" style="font-size:90px">200 PORCIONES</div><div style="font-weight:700;font-size:34px;color:#ddd;text-transform:uppercase;line-height:1.15">de 5 g = 200 días<br>de creatina</div>
  <div style="font-weight:700;font-size:28px;color:#aaa;text-transform:uppercase;margin-top:14px">Micronizada · certificada NSF</div></div></div>
 <div style="position:absolute;top:1520px;left:0;right:0;text-align:center"><span class="big" style="display:inline-block;background:{OR};color:#0b0705;font-size:70px;padding:12px 34px 0;border-radius:16px;box-shadow:0 0 40px rgba(242,106,27,.6)">PÍDELA POR DM 📩</span></div>'''
     return page(body, seed=919)
@@ -89,6 +89,6 @@ if __name__ == '__main__':
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={'width': W, 'height': H})
         for n, h in pages:
-            pg.set_content(h, wait_until='load'); pg.wait_for_selector('body[data-ok]'); pg.wait_for_timeout(300)
+            pg.set_content(gen.sin_emoji(h), wait_until='load'); pg.wait_for_selector('body[data-ok]'); pg.wait_for_timeout(300)
             pg.screenshot(path=os.path.join(OUT, n + '.png')); print(n)
         b.close()

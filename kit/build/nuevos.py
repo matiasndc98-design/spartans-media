@@ -133,7 +133,7 @@ def render(pages, out, w, h):
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={'width': w, 'height': h})
         for n, html in pages:
-            pg.set_content(html, wait_until='load'); pg.wait_for_selector('body[data-ok]'); pg.wait_for_timeout(300)
+            pg.set_content(gen.sin_emoji(html), wait_until='load'); pg.wait_for_selector('body[data-ok]'); pg.wait_for_timeout(300)
             pg.screenshot(path=os.path.join(out, n + '.png')); print(n)
         b.close()
 

@@ -101,6 +101,6 @@ pages.append(('s7_objetivo',page(f'''
 with sync_playwright() as p:
     b=p.chromium.launch(); pg=b.new_page(viewport={'width':1080,'height':1920})
     for n,h in pages:
-        pg.set_content(h,wait_until='load'); pg.wait_for_selector('body[data-ok]'); pg.wait_for_timeout(300)
+        pg.set_content(gen.sin_emoji(h),wait_until='load'); pg.wait_for_selector('body[data-ok]'); pg.wait_for_timeout(300)
         pg.screenshot(path=os.path.join(OUT,n+'.png')); print(n)
     b.close()

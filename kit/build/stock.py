@@ -43,5 +43,5 @@ body=f"""{FX.replace('SEED','2026')}<div class="wall"></div>
 html=f'<html><head><style>{css}</style></head><body>{body}</body></html>'
 with sync_playwright() as p:
     b=p.chromium.launch(); pg=b.new_page(viewport={'width':1080,'height':1920})
-    pg.set_content(html,wait_until='load'); pg.wait_for_selector('body[data-ok]'); pg.wait_for_timeout(300)
+    pg.set_content(gen.sin_emoji(html),wait_until='load'); pg.wait_for_selector('body[data-ok]'); pg.wait_for_timeout(300)
     pg.screenshot(path=sys.argv[1]); b.close()

@@ -103,7 +103,7 @@ def main():
     n = int(DUR * FPS)
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={'width': W, 'height': H})
-        pg.set_content(html, wait_until='load'); pg.wait_for_selector('body[data-ok]')
+        pg.set_content(gen.sin_emoji(html), wait_until='load'); pg.wait_for_selector('body[data-ok]')
         ev = pg.evaluate('document.getAnimations().map(a=>[a.effect.getTiming().delay/1000, a.animationName])')
         for f in range(n):
             pg.evaluate(f'document.getAnimations().forEach(a=>{{a.currentTime={f * 1000 / FPS}}})')
