@@ -23,3 +23,5 @@
 - 2026-10-11 · orden · carpetas reorganizadas (Feed/Catalogo, Historias/Series/Creatina, Historias/Fijas, Reels/Por_subir y Reels/Publicados), README con mapa
 - 2026-10-11 · historias · el dueño subió a mano h3_proteinas, h4_finaflex, h5_al_paso (versión sin precio) ~3:30 PM
 - 2026-10-11 · orden · sin precios en ninguna imagen: catálogo único Feed/Catalogo (portada + 12 productos + cómo comprar, "Pídelo por DM"); borrado Feed/2026-10-11 (sus láminas estaban repetidas en el catálogo); destacada "Precios" → "Productos" (Destacadas/portada_productos.jpg)
+- 2026-10-12 · carrusel feed (6) · "Tu primer mes con creatina": línea de tiempo día 1 → semana 1–2 → semana 3–4 → mes 2+ que avanza en cada lámina, cierre con las 4 creatinas (días que duran) + shaker · Feed/2026-10-12/ · entregado a mano (cupo Metricool agotado)
+- 2026-10-12 · historias (4) · semana de la creatina: agenda con slider de emoji 🔥 (idea nueva), encuesta "¿Tomas creatina?", quiz "¿cuánto tarda en llenar tus músculos?", respuesta 3–4 semanas · Historias/2026-10-12/ · entregadas a mano
