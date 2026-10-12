@@ -103,6 +103,11 @@ Si se programa en Metricool:
 
 Temas: semana 11–17 oct creatina (incluye Finaflex 1 kg); 18–24 oct proteína (Whey USN, ISO 100, Nitro Tech, barra Space Protein); 25–31 oct energía para entrenar (Lipo 6, Guaraná Shot); 1–7 nov base y constancia (multivitamínico, Omega 3, stacks). El 11 oct se publicó el lanzamiento de los productos nuevos. Plan detallado: https://claude.ai/code/artifact/1d8386c5-c08a-4f94-b6d2-ec741c11f133
 
+Ajustes del informe semanal (vigentes desde el 12 oct; ver `informes.md`):
+- Todos los días la última historia lleva un sticker (encuesta, slider o pregunta), con el espacio libre de ~300 px; no solo lunes y sábado. Indica en "QUÉ SUBIR MAÑANA" qué sticker poner.
+- Cada caption de carrusel y reel cierra con un llamado de palabra clave ("Comenta CREATINA y te mando por DM cuánto te dura") y pide guardarlo.
+- En "QUÉ SUBIR MAÑANA" recuérdale al dueño compartir cada carrusel y reel en sus historias el mismo día (sticker de publicación nueva).
+
 Reels: animados con `kit/build/reel.py` (base). **Variar el tipo** (pedido del dueño), sin repetir el mismo tipo dos veces seguidas: educativo con cálculo (`reel_proteina.py`, el que más le gustó: gancho con pregunta → dato con fuente → ejemplo → cómo aplicarlo → remate con producto), comparativa con barras (`reel_creatinas.py`), lista de errores para guardar (`reel_errores_creatina.py`), POV con batería (`reel_pov_energia.py`), lanzamiento de productos (`reel.py`). Otras ideas: mito o verdad rápido, antes de entrenar vs después, "esto o esto", checklist del bolso del gym, cuenta regresiva. 15–21 s, con sonido original (`kit/build/sonido.py`, se agrega solo al renderizar: solo efectos sincronizados con cada animación, SIN música ni base: la música la pone el dueño en Instagram), se entregan al dueño para que los suba a mano. Próximo paso para innovar: editar clips reales del dueño (manos, scoop, shaker, pedidos; ASMR). En reels de producto, cada producto en pantalla 2,5 s (decisión del dueño). Cada reel nuevo debe mejorar algo respecto del anterior (ritmo, gancho, transición o dato). Si el dueño manda video real, se edita y se prioriza. Las historias interactivas van en modo aviso (`autoPublish: false`, ver Cómo publicar) para que el dueño agregue el sticker.
 
 ## Hashtags
@@ -119,7 +124,7 @@ Mezcla en cada caption (máximo 8): 2 grandes, 3 de nicho y 3 locales. Grandes: 
 - `Reels/` — reels: `Reels/Por_subir/` (listos, nombre `AAAA-MM-DD_tema.mp4` con la fecha en que tocan), `Reels/Publicados/` (se mueven ahí al entregarlos) y `Reels/banco.md` (texto de cada uno).
 - `Robot/` — robot de publicación gratis (cola.json, scripts) y `.github/workflows/`.
 - `kit/` — scripts, fuentes, íconos e imágenes recortadas (`kit/build/p_*.png`).
-- `CLAUDE.md` (guía), `registro.md` (lo publicado), `README.md` (mapa para el dueño) son los únicos archivos en la raíz.
+- `CLAUDE.md` (guía), `registro.md` (lo publicado), `informes.md` (informe semanal de los lunes), `README.md` (mapa para el dueño) son los únicos archivos en la raíz.
 Mantén este orden: nada suelto en la raíz, nombres de carpeta con mayúscula inicial, y borra versiones descartadas.
 
 ## Innovar siempre
