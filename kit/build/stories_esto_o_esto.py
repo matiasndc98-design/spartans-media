@@ -49,6 +49,29 @@ def esto_o_esto():
     return page(body, css, fx=False)
 
 
+def diferencias():
+    css = """
+.colh{position:absolute;top:0;bottom:0;width:540px}
+.l{left:0;background:linear-gradient(180deg,#141414,#0b0b0b)}
+.r{right:0;background:linear-gradient(180deg,#2a0f44,#12061f)}
+.tab{position:absolute;left:50px;right:50px;top:760px}
+.row{display:grid;grid-template-columns:1fr 1fr;align-items:center;border-top:1px solid rgba(255,255,255,.14);padding:20px 0}
+.row .k{grid-column:1/3;text-align:center;font-weight:800;font-size:26px;letter-spacing:4px;color:#F26A1B;margin-bottom:6px}
+.row .v{text-align:center;font-family:Bebas;font-size:62px;line-height:.95}
+.row .v.u{color:#d9b3ff}
+"""
+    rows = [('CREATINA POR PORCIÓN', '5 G', '5 G'), ('PORCIONES', '80', '60'), ('TARRO', '400 G', '392 G'),
+            ('SABOR', 'NEUTRO', 'UVA'), ('CÓMO TOMARLA', 'EN TU BATIDO O JUGO', 'SOLO CON AGUA')]
+    tb = ''.join(f'<div class="row"><div class="k">{k}</div><div class="v">{a}</div><div class="v u">{b}</div></div>' for k, a, b in rows)
+    body = f'''<div class="colh l"></div><div class="colh r"></div>{BRAND}
+<div style="position:absolute;top:270px;left:0;right:0;text-align:center"><div class="big" style="font-size:120px">¿EN QUÉ SE</div><div class="big o" style="font-size:150px">DIFERENCIAN?</div></div>
+<div style="position:absolute;top:520px;left:0;width:540px;display:flex;flex-direction:column;align-items:center"><img src="{I("p_mt_sin.png")}" style="height:200px;filter:drop-shadow(0 16px 14px #000)"></div>
+<div style="position:absolute;top:520px;right:0;width:540px;display:flex;flex-direction:column;align-items:center"><img src="{I("p_mt_uva.png")}" style="height:200px;filter:drop-shadow(0 16px 14px #000)"></div>
+<div class="tab">{tb}</div>
+<div style="position:absolute;top:1500px;left:70px;right:70px;text-align:center;font-weight:800;font-size:40px;line-height:1.15;text-transform:uppercase">Misma creatina micronizada, misma dosis.<br><span class="o">Cambia el sabor y cuánto te dura.</span></div>'''
+    return page(body, css, fx=False)
+
+
 def adivina():
     body = f'''{BRAND}<div style="position:absolute;top:260px;left:70px;right:70px"><span class="big" style="display:inline-block;background:{OR};color:#0b0705;font-size:56px;padding:8px 22px 0;border-radius:10px;transform:rotate(-3deg)">ADIVINA 🤔</span>
 <div class="big" style="font-size:130px;margin-top:22px">¿CUÁNTO TE DURA</div><div class="big o" style="font-size:130px">ESTE TARRO?</div><div style="font-weight:700;font-size:32px;color:#ccc;text-transform:uppercase;margin-top:12px">Tomando 5 g al día, todos los días</div></div>
@@ -85,7 +108,7 @@ def adelanto():
 
 if __name__ == '__main__':
     os.makedirs(OUT, exist_ok=True)
-    pages = [('1_esto_o_esto', esto_o_esto()), ('2_adivina', adivina()), ('3_respuesta', respuesta()), ('4_adelanto_jueves', adelanto())]
+    pages = [('1_esto_o_esto', esto_o_esto()), ('2_diferencias', diferencias()), ('3_adivina', adivina()), ('4_respuesta', respuesta()), ('5_adelanto_jueves', adelanto())]
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={'width': W, 'height': H})
         for n, h in pages:
