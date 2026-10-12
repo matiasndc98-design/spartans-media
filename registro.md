@@ -27,3 +27,4 @@
 - 2026-10-12 · historias (4) · rehechas (las primeras le parecieron fomes al dueño): "esto o esto" sin sabor vs uva en pantalla dividida, adivinanza "¿cuántas porciones trae este tarro?" con Finaflex gigante, respuesta 200 porciones / +6 meses, adelanto del reel del jueves con cuenta regresiva · Historias/2026-10-12/ · kit/build/stories_esto_o_esto.py
 - 2026-10-12 · ajuste · sin emojis dentro de diseños (se ven distintos al iPhone): carrusel y historias del lunes regenerados; quiz cambiado a "¿cuánto te dura este tarro?" porque la etiqueta mostraba 200 servings
 - 2026-10-12 · historia · informativa "¿En qué se diferencian?" sin sabor vs uva (5 g, 80 vs 60 porciones, 400 vs 392 g, cómo tomarla) después del esto o esto, pedida por el dueño · Historias/2026-10-12/2_diferencias.jpg
+- 2026-10-12 · logo · nuevo logo (casco corintio frontal + corona de laureles) en Logo/; regenerados catálogo, destacadas, serie creatina, stock disponible y contenido del 12 oct

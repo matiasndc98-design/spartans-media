@@ -10,6 +10,7 @@ Todo el material de @spartan_fitness_spa, ordenado por tipo.
 | `Historias/Series/` | Series reutilizables (ej. `Creatina/`) |
 | `Historias/Fijas/` | Historias que se pueden repetir (stock disponible) |
 | `Destacadas/` | Portadas de destacadas e historias fijas "Cómo comprar" y "Cómo te llega" |
+| `Logo/` | Logo oficial: vector (svg), PNG transparente y versión foto de perfil |
 | `Fotos/` | Fotos de cada producto 4:5 sobre negro |
 | `Reels/Por_subir/` | Reels listos, con la fecha en que toca subirlos en el nombre |
 | `Reels/Publicados/` | Reels ya subidos |
