@@ -70,7 +70,7 @@ Ejecuta los scripts desde `kit/build` (rutas relativas). Revisa SIEMPRE el rende
 ## Cómo publicar
 
 **Regla principal: Metricool se usa lo mínimo (plan gratis = 20 publicaciones al mes, se reinicia el día 1).** Decisión del dueño.
-- **El dueño sube a mano:** todas las historias y todos los reels. La tarea diaria se los entrega el día anterior: manda cada archivo con `SendUserFile` (en orden, nombre con número de orden) y un `SendUserMessage` con "QUÉ SUBIR MAÑANA": hora, orden de las historias, texto (caption) de cada reel, sugerencia de música y qué sticker poner en las interactivas.
+- **El dueño sube a mano:** todas las historias y todos los reels. La tarea diaria se los entrega el día anterior: manda **una carpeta .zip por día** (ej. `Martes_13_oct.zip` con subcarpetas `1_Carrusel`, `2_Historias`, `3_Reel`, archivos numerados en orden; el dueño prefiere carpetas) con `SendUserFile` y un `SendUserMessage` con "QUÉ SUBIR MAÑANA": hora, orden de las historias, texto (caption) de cada reel, sugerencia de música y qué sticker poner en las interactivas.
 - **Metricool solo para carruseles del feed** (lunes y viernes 10 AM, autoPublish true), porque ahí sirve que salgan solos a la hora óptima. Máximo ~10 al mes. Antes de programar, cuenta con `getScheduledPosts` (desde el día 1 del mes) las publicaciones ya publicadas o pendientes no borrador; si llegan a 18, el carrusel también se entrega al dueño a mano.
 - Octubre 2026 ya gastó su cupo (20): hasta el 1 de noviembre todo se entrega a mano.
 - Banco de reels listos con su texto: `Reels/banco.md`. Úsalo antes de crear un reel nuevo y mueve a "Publicados" lo entregado.
