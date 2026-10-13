@@ -94,7 +94,7 @@ Si se programa en Metricool:
 | Día | Feed | Historias | Hora |
 | --- | --- | --- | --- |
 | Lunes | Carrusel educativo | Encuesta / tema de la semana | 10:00 |
-| Martes | Reel animado educativo | Pregunta frecuente | 18:00 |
+| Martes | Reel animado educativo | Pregunta frecuente: serie "Pregunta espartana" (responde una duda que llegó en la caja de preguntas del martes anterior; cierra con caja de preguntas) | 18:00 |
 | Miércoles | — | Producto de la semana (sin precio) | 10:00 |
 | Jueves | Reel animado (producto o comparativa) | Detrás de la tienda | 18:00 |
 | Viernes | Carrusel de producto o comparativa | Combo / promoción real | 10:00 |

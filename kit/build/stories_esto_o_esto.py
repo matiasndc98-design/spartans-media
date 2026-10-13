@@ -110,8 +110,9 @@ if __name__ == '__main__':
     os.makedirs(OUT, exist_ok=True)
     pages = [('1_esto_o_esto', esto_o_esto()), ('2_diferencias', diferencias()), ('3_adivina', adivina()), ('4_respuesta', respuesta()), ('5_adelanto_jueves', adelanto())]
     with sync_playwright() as p:
-        b = p.chromium.launch(); pg = b.new_page(viewport={'width': W, 'height': H})
+        b = p.chromium.launch()
         for n, h in pages:
+            pg = b.new_page(viewport={'width': W, 'height': H})  # página nueva: el script de brasas usa const globales
             pg.set_content(gen.sin_emoji(h), wait_until='load'); pg.wait_for_selector('body[data-ok]'); pg.wait_for_timeout(300)
-            pg.screenshot(path=os.path.join(OUT, n + '.png')); print(n)
+            pg.screenshot(path=os.path.join(OUT, n + '.png')); pg.close(); print(n)
         b.close()

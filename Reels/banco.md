@@ -5,17 +5,6 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-### Mar 13 oct · 6 PM · Por_subir/2026-10-13_cuanta_proteina.mp4 (educativo, cálculo)
-¿Cuánta proteína necesitas al día? 💪 Guárdalo para no olvidarlo 📌
-
-Si entrenas, la referencia es de 1,4 a 2 g por kilo de peso (ISSN). Si pesas 70 kg, son entre 98 y 140 g al día.
-
-Lo ideal es llegar con comida real. Si no alcanzas, un scoop de proteína te acerca a tu meta.
-
-📩 ¿Dudas con cuál elegir? Escríbenos y te ayudamos.
-
-#gym #fitness #proteina #wheyprotein #hipertrofia #caldera #atacama #spartans
-
 ### Jue 15 oct · 6 PM · Por_subir/2026-10-15_creatinas_comparativa.mp4 (comparativa con barras)
 ¿Qué creatina te conviene? 🤔 Comparamos las 3 que tenemos 👇
 
@@ -63,3 +52,15 @@ Guaraná Shot: contiene cafeína (200 mg por shot). No apto para menores ni emba
 
 ## Publicados
 - 11 oct · Publicados/2026-10-11_nuevo_stock.mp4 (subido a mano por el dueño)
+- 13 oct · 6 PM · Publicados/2026-10-13_cuanta_proteina.mp4 (educativo, cálculo) · entregado el 12 oct. Texto:
+
+¿Cuánta proteína necesitas al día? 💪 Guárdalo para no olvidarlo 📌
+
+Si entrenas, la referencia es de 1,4 a 2 g por kilo de peso (ISSN). Si pesas 70 kg, son entre 98 y 140 g al día.
+
+Lo ideal es llegar con comida real. Si no alcanzas, un scoop de proteína te acerca a tu meta.
+
+💬 Comenta PROTEINA y te mando por DM cuál te conviene según tu objetivo.
+📌 Guárdalo y compártelo con tu yunta del gym.
+
+#gym #fitness #proteina #wheyprotein #hipertrofia #caldera #atacama #spartans
