@@ -67,9 +67,12 @@ def final():
 .st .t2{font-weight:500;font-size:26px;color:#cfcfcf;margin-top:6px;text-transform:uppercase;line-height:1.1}
 .bdg{position:absolute;right:40px;top:560px;width:400px;border-radius:24px;overflow:hidden;box-shadow:0 0 60px rgba(242,106,27,.35);border:2px solid rgba(242,106,27,.6)}
 .bdg img{width:100%;display:block}
+.bdg2{position:absolute;right:50px;top:600px;width:380px;height:380px;border-radius:50%;border:3px solid rgba(242,106,27,.7);background:radial-gradient(circle,#2a1406,#0b0806 70%);box-shadow:0 0 70px rgba(242,106,27,.35);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+.bdg2 img{width:220px}
+.bdg2 .t{text-align:center;font-weight:800;font-size:20px;letter-spacing:6px;color:#ddd}.bdg2 .t b{display:block;font-family:Bebas;font-weight:400;font-size:58px;letter-spacing:3px;color:#fff;line-height:.9}
 .dm{position:absolute;left:70px;top:1062px;background:#F26A1B;color:#0b0705;font-family:Bebas;font-size:58px;padding:14px 30px 6px;border-radius:14px;box-shadow:0 0 40px rgba(242,106,27,.45)}
 """
-    return f'<html><head><style>{css}</style></head><body>{gen.FX.replace("SEED","777")}<div class="stripes"></div>{gen.header()}<div class="q">¿CÓMO<br><span>COMPRAR?</span></div><div class="steps">{st}</div><div class="bdg"><img src="{gen.BADGE}"></div><div class="dm">ESCRÍBENOS AL DM →</div>{gen.bar_html()}{gen.FIT}</body></html>'
+    return f'<html><head><style>{css}</style></head><body>{gen.FX.replace("SEED","777")}<div class="stripes"></div>{gen.header()}<div class="q">¿CÓMO<br><span>COMPRAR?</span></div><div class="steps">{st}</div><div class="bdg2"><img src="{gen.HELMET}"><div class="t">SUPLEMENTOS<b>SPARTANS</b></div></div><div class="dm">ESCRÍBENOS AL DM →</div>{gen.bar_html()}{gen.FIT}</body></html>'
 
 if not only or '01_portada' in only: gen.render([('01_portada',cover())])
 if not only or '14_como_comprar' in only: gen.render([('14_como_comprar',final())])

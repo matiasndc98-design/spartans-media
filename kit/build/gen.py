@@ -25,7 +25,6 @@ FONTS = (font('Bebas', 'bebas-neue/files/bebas-neue-latin-400-normal.woff2', 400
          + ''.join(font('Barlow', f'barlow-condensed/files/barlow-condensed-latin-{w}-normal.woff2', w) for w in (500, 600, 700, 800)))
 
 HELMET = uri(os.path.join(B, 'helmet.png'))
-BADGE = uri(os.path.join(B, 'badge.jpg'))
 OR = '#F26A1B'
 
 CSS = FONTS + f"""
