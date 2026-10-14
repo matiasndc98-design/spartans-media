@@ -35,3 +35,4 @@
 - 2026-10-14 · post + historia · publicidad con FOTO REAL del dueño (Finaflex 1 kg en la mano): "¿Es gigante? Sí, 1 kilo", +6 meses, 200 porciones, NSF · Feed/2026-10-14/ e Historias/2026-10-14/finaflex_foto_real.jpg · foto original en kit/fotos_dueno/
 - 2026-10-14 · catálogo · lámina "Cómo comprar" sin la imagen antigua del guerrero (casco tipo pulpo): ahora sello con el logo nuevo; badge.jpg eliminado
 - 2026-10-14 · logo · todo el material con el logo nuevo (historias 11 oct y reel nuevo_stock regenerados; teaser 10 oct borrado por obsoleto)
+- 2026-10-14 · logo · arte del guerrero del dueño corregido: los 4 cascos antiguos (pecho, bajo SPARTANS y medallas de los hombros) cambiados por el logo nuevo · Logo/arte_spartans.jpg y arte_spartans_historia.jpg (original en kit/fotos_dueno, script kit/build/arte_logo.py)
