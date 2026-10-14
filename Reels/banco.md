@@ -5,21 +5,6 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-### Jue 15 oct · 6 PM · Por_subir/2026-10-15_creatinas_comparativa.mp4 (comparativa con barras)
-¿Qué creatina te conviene? 🤔 Comparamos las 3 que tenemos 👇
-
-⏳ Cuánto te dura (5 g al día):
-• USN 300 g → 60 días
-• MuscleTech Platinum 400 g → 80 días
-• Finaflex 1 kg → 200 días
-
-Las tres son creatina monohidrato, la más estudiada. Elige por cuánto te dura y si la quieres sin sabor o con sabor (MuscleTech uva).
-
-🎁 Llevando proteína + creatina, shaker de regalo.
-📩 Escríbenos "CREATINA" y te ayudamos a elegir.
-
-#gym #suplementos #creatina #suplementoschile #hipertrofia #caldera #copiapo #muscletech
-
 ### Sáb 17 oct · 10 AM · Por_subir/2026-10-17_errores_creatina.mp4 (lista para guardar)
 3 errores con la creatina 🚫 ¿Cometes alguno?
 
@@ -64,3 +49,19 @@ Lo ideal es llegar con comida real. Si no alcanzas, un scoop de proteína te ace
 📌 Guárdalo y compártelo con tu yunta del gym.
 
 #gym #fitness #proteina #wheyprotein #hipertrofia #caldera #atacama #spartans
+- 15 oct · 6 PM · Publicados/2026-10-15_creatinas_comparativa.mp4 (comparativa con barras) · entregado el 14 oct. Texto:
+
+¿Qué creatina te conviene? 🤔 Comparamos las 3 que tenemos 👇
+
+⏳ Cuánto te dura (5 g al día):
+• USN 300 g → 60 días
+• MuscleTech Platinum 400 g → 80 días
+• Finaflex 1 kg → 200 días
+
+Las tres son creatina monohidrato, la más estudiada. Elige por cuánto te dura y si la quieres sin sabor o con sabor (MuscleTech también viene en uva).
+
+🎁 Llevando proteína + creatina, shaker de regalo.
+💬 Comenta CREATINA y te mando por DM cuál te conviene según cuánto quieres que te dure.
+📌 Guárdalo para cuando te toque comprar.
+
+#gym #suplementos #creatina #suplementoschile #hipertrofia #caldera #copiapo #muscletech
