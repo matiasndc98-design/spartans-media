@@ -5,20 +5,6 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-### Sáb 17 oct · 10 AM · Por_subir/2026-10-17_errores_creatina.mp4 (lista para guardar)
-3 errores con la creatina 🚫 ¿Cometes alguno?
-
-1️⃣ Tomar más de la cuenta → con 3 a 5 g al día basta.
-2️⃣ Esperar resultados en 3 días → sin fase de carga, tus reservas se llenan en 3 a 4 semanas. Constancia.
-3️⃣ Tomarla y no entrenar → te ayuda a rendir más, no reemplaza el entrenamiento.
-
-📌 Guárdalo y mándaselo a tu yunta del gym.
-📩 ¿Dudas? Escríbenos.
-
-Referencia: Sociedad Internacional de Nutrición Deportiva (ISSN).
-
-#gym #fitness #creatina #suplementosdeportivos #hipertrofia #caldera #atacama #spartans
-
 ### Sáb 25 oct · 10 AM · Por_subir/2026-10-25_pov_energia.mp4 (POV con batería)
 POV: son las 6 PM y cero ganas de entrenar 🪫 Tu plan para cargar batería 🔋
 
@@ -65,3 +51,17 @@ Las tres son creatina monohidrato, la más estudiada. Elige por cuánto te dura 
 📌 Guárdalo para cuando te toque comprar.
 
 #gym #suplementos #creatina #suplementoschile #hipertrofia #caldera #copiapo #muscletech
+- 17 oct · 10 AM · Publicados/2026-10-17_errores_creatina.mp4 (lista de errores para guardar) · entregado el 16 oct. Texto:
+
+3 errores con la creatina 🚫 ¿Cometes alguno?
+
+1️⃣ Tomar más de la cuenta → con 3 a 5 g al día basta.
+2️⃣ Esperar resultados en 3 días → sin fase de carga, tus reservas se llenan en 3 a 4 semanas. Constancia.
+3️⃣ Tomarla y no entrenar → te ayuda a rendir más, no reemplaza el entrenamiento.
+
+💬 Comenta DOSIS y te mando por DM cuánto te dura tu tarro según la creatina que tomas.
+📌 Guárdalo y mándaselo a tu yunta del gym.
+
+Referencia: Sociedad Internacional de Nutrición Deportiva (ISSN).
+
+#gym #fitness #creatina #suplementosdeportivos #hipertrofia #caldera #atacama #spartans
