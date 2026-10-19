@@ -11,3 +11,14 @@
   2. Cerrar cada caption con palabra clave ("Comenta CREATINA y te mando por DM cuánto te dura") y "guárdalo": apunta a los 0 comentarios y 0 guardados.
   3. El dueño comparte cada carrusel y reel en sus historias el mismo día, para que el post llegue a más que el 8% de los seguidores.
 - Los 3 quedaron en CLAUDE.md. El próximo lunes revisar los datos del 11 oct (historias y reel) y comparar el carrusel educativo del 12 con el de catálogo.
+
+## Lunes 19 oct 2026 · semana 12–18 oct (vs 5–11 oct)
+
+- **Alcance de la cuenta: 484** (suma diaria) vs 255 (+90%). **Visualizaciones: 3.430** vs 3.154 (+9%). **Seguidores: 292** vs 294 (0 ganados, 2 perdidos; la semana anterior +5 / −2). Cuentas que interactuaron: 1 vs 3. El dom 18 no tiene datos todavía (Metricool sincroniza con retraso; además el lunes su API estuvo caída unos 15 min).
+- **Alerta:** Metricool no registra ningún carrusel ni reel del 12 al 18 oct (posts, reels e interacciones en 0; el último es el reel del 11). O no se subieron el carrusel del 12, la foto Finaflex del 14, el carrusel del 16 y los reels del 13, 15 y 17, o Metricool no los captó: hay que confirmarlo con el dueño. Historias: Metricool no entrega ninguna fila (ni alcance, ni respuestas, ni salidas), igual que la semana pasada. Visitas al perfil: métrica ya no disponible.
+- **Mejor:** mié 14 (157 personas, 1.944 visualizaciones) y jue 15 (156): días de "Lee la etiqueta conmigo" + foto real del dueño con el Finaflex, y de "Así viaja tu pedido". Como no hubo posts registrados, ese alcance viene casi seguro de historias. Creo que funcionó por ser material real y concreto (su mano, su tienda, el pedido), no catálogo.
+- **Peor:** vie 16 y sáb 17: 10 y 2 personas, casi cero, con carrusel, combo, quiz y reel entregados para esos días (probablemente no se publicaron). Y el reel del 11 oct (dato pendiente): 56 personas, 109 reproducciones, 2 likes, 3,8 s de visualización promedio de 21 s: la gente se va antes del primer producto.
+- **Ajustes para esta semana (19–25 oct, proteína), ya en CLAUDE.md:**
+  1. Confirmar lo publicado: la tarea diaria revisa en Metricool si el carrusel y el reel del día anterior aparecen; si no, los vuelve a poner primero y avisa al dueño, que responde "subido" al publicar.
+  2. Reels de 12–15 s con el gancho escrito legible desde el primer cuadro (sin animación de entrada).
+  3. Al menos 2 piezas por semana con foto o video real del dueño; el domingo se le piden 2–3 fotos o clips.
