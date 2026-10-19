@@ -51,6 +51,16 @@ Productos nuevos que lleguen: no publicarlos hasta que el dueño mande imagen y 
 
 Fondo negro (#060504) con brasas naranjas, naranjo Spartans #F26A1B, blanco. Títulos en Bebas Neue, textos en Barlow Condensed (mayúsculas). Logo: casco corintio de frente con corona de laureles, naranjo (`Logo/logo_spartans.svg`; en diseños `kit/build/helmet.png`), + "SPARTANS" arriba. Elegido por el dueño el 12 oct (el anterior "parecía calamar"). Feed 1080×1350 (4:5); historias 1080×1920 con lo importante fuera de los 250 px superiores e inferiores. Historias **sin numeración** (nada de 1/5, 2/5: el orden lo controlamos nosotros al programar). **Ninguna imagen, video ni caption lleva precios de productos** (decisión del dueño): usar beneficios, datos (gramos, porciones, días que dura) y llamado al DM ("Pídelo por DM"); el precio se da por DM con la tabla del catálogo de esta guía. El costo de delivery ($1.500) sí puede aparecer. **Sin emojis dentro de imágenes y videos** (Chromium no los dibuja como el iPhone y se ven feos; `gen.sin_emoji` los cambia por íconos al renderizar): usa íconos del kit. Los emojis sí van en captions y en los stickers que pone el dueño. No repetir el mismo formato en feed e historias; evitar que todo parezca catálogo.
 
+## Estilo PREMIUM (obligatorio desde el 19 oct)
+
+El dueño encontró el estilo anterior "fome, de cabro chico" (mucho texto, recuadros, chips, timbres tipo cómic, brasas por todos lados). Desde ahora todo sigue `kit/build/premium.py`, inspirado en marcas grandes (Gymshark, Optimum Nutrition, Ghost):
+- Una idea por imagen. Titular de 2 a 7 palabras, grande, en Bebas; una línea de apoyo como máximo 25 palabras en Barlow gris claro.
+- Producto como héroe: fondo de estudio gris carbón con foco de luz, piso con reflejo, sombra suave; producto grande, puede salir recortado por el borde.
+- Mucho espacio negro. Naranjo solo como acento (una palabra del titular, una línea fina). Etiquetas pequeñas en mayúscula espaciada.
+- PROHIBIDO: timbres ("FALSO", "MITO" en sello), recuadros con borde, chips, filas de íconos de relleno, brasas como fondo principal, emojis.
+- Marca discreta arriba a la izquierda (casco + SPARTANS) y numeración de lámina solo en carruseles.
+- Fotos y videos reales del dueño siempre por sobre los renders.
+
 ## Cómo generar imágenes
 
 Requisitos (ya presentes en el entorno): Python, Playwright con Chromium, Pillow.
