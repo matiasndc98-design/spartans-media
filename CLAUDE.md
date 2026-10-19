@@ -61,6 +61,14 @@ El dueño encontró el estilo anterior "fome, de cabro chico" (mucho texto, recu
 - Marca discreta arriba a la izquierda (casco + SPARTANS) y numeración de lámina solo en carruseles.
 - Fotos y videos reales del dueño siempre por sobre los renders.
 
+## Qué tipo de contenido (pedido del dueño el 19 oct: "el contenido está fome")
+
+Menos clases y mitos; más contenido que la gente quiera compartir o guardar:
+- **Humor identificable de gym** (ej. `kit/build/red_flags.py`: "Red flags en el gym"), POV, "cosas que solo entiende el que entrena"; remate final con producto y "comenta tu…". Nada de memes ajenos (derechos): humor propio o con fotos/videos del dueño.
+- **Rutinas para guardar** (ej. "Rutina de hombros" con ilustraciones anatómicas): el dueño genera las ilustraciones con IA usando los prompts que le pasamos y nosotros armamos el carrusel (títulos en español, series/reps/descanso, lámina final con producto). Esas piezas se marcan "Hecho con IA" en Instagram.
+- **Material real del dueño** (fotos/videos con el producto, pedidos, tienda) siempre primero.
+- Lo educativo va en dosis chicas y con un gancho (pregunta polémica, número sorprendente), no como lista de mitos.
+
 ## Cómo generar imágenes
 
 Requisitos (ya presentes en el entorno): Python, Playwright con Chromium, Pillow.
