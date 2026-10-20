@@ -53,3 +53,4 @@
 - 2026-10-19 · carrusel feed (7) · "Red flags en el gym" entregado a mano para mar 20 oct 10 AM con caption (palabra clave CONSTANCIA) · Feed/2026-10-20/ (cupo Metricool agotado)
 - 2026-10-19 · ajuste · p_whey.png sin la base blanca de la foto original (se veía como un plato bajo el tarro)
 
+- 2026-10-20 · historias (4) · miércoles "Producto de la semana" (estilo premium): Dymatize ISO 100 Cocoa Pebbles "Sabor a cereal. Proteína de adulto."; ficha con números grandes (25 g, 71 porciones, 100% isolate hidrolizada); idea nueva "No solo en shaker" (3 formas de tomarla para guardar: shaker, avena, yogur); encuesta "¿cómo la tomarías?" · Historias/2026-10-21/ · kit/build/stories_producto_iso100.py · para mié 21 oct 10 AM, entregado a mano
