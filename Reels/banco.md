@@ -65,3 +65,15 @@ Las tres son creatina monohidrato, la más estudiada. Elige por cuánto te dura 
 Referencia: Sociedad Internacional de Nutrición Deportiva (ISSN).
 
 #gym #fitness #creatina #suplementosdeportivos #hipertrofia #caldera #atacama #spartans
+- 20 oct · 6 PM · Publicados/2026-10-20_diccionario_gym.mp4 (humor: lo que dice vs lo que significa, 15 s) · entregado el 19 oct. Texto:
+
+Diccionario del gym 📖 Lo que dice vs lo que significa 😅
+
+¿Cuál eres tú? Comenta 1, 2, 3 o 4 👇
+
+Y si tu batido es tu personalidad, que sea uno bueno: Whey USN chocolate, 22 g de proteína por scoop 🍫
+
+💬 Comenta BATIDO y te mando por DM qué proteína te conviene según tu objetivo.
+📌 Guárdalo y mándaselo a tu yunta del gym.
+
+#gym #fitness #proteina #wheyprotein #suplementoschile #caldera #copiapo #usn
