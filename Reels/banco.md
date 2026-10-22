@@ -77,3 +77,18 @@ Y si tu batido es tu personalidad, que sea uno bueno: Whey USN chocolate, 22 g d
 📌 Guárdalo y mándaselo a tu yunta del gym.
 
 #gym #fitness #proteina #wheyprotein #suplementoschile #caldera #copiapo #usn
+- 22 oct · 6 PM · Publicados/2026-10-22_cual_proteina.mp4 (comparativa tipo selector "¿Qué proteína es para ti?", 15 s) · entregado el 21 oct. Texto:
+
+¿Qué proteína es para ti? 🤔 4 opciones, una para cada objetivo 👇
+
+1️⃣ Lo clásico → Whey USN chocolate, 22 g de proteína por scoop
+2️⃣ Menos lactosa → Dymatize ISO 100, whey isolate hidrolizada, 25 g por scoop
+3️⃣ 2 en 1 → MuscleTech Nitro Tech, 30 g de proteína + 3 g de creatina
+4️⃣ Al paso → Barra Space Protein XXL coco, 36% proteína y 3 g de azúcar
+
+¿Cuál eres? Comenta 1, 2, 3 o 4 👇
+🎁 Llevando proteína + creatina, shaker de regalo.
+💬 Comenta SCOOP y te mando por DM cuál te conviene según tu objetivo.
+📌 Guárdalo para cuando te toque comprar.
+
+#gym #suplementos #proteina #wheyprotein #suplementoschile #caldera #copiapo #dymatize
