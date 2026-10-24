@@ -5,7 +5,7 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-### Sáb 25 oct · 10 AM · Por_subir/2026-10-25_pov_energia.mp4 (POV con batería)
+### Sáb 31 oct · 10 AM · Por_subir/2026-10-31_pov_energia.mp4 (POV con batería; semana de la energía. Ojo: es anterior al estilo premium y al ajuste del gancho en el cuadro 0, conviene rehacerlo antes de entregar)
 POV: son las 6 PM y cero ganas de entrenar 🪫 Tu plan para cargar batería 🔋
 
 ✅ Come algo liviano 1 a 2 horas antes
@@ -92,3 +92,20 @@ Y si tu batido es tu personalidad, que sea uno bueno: Whey USN chocolate, 22 g d
 📌 Guárdalo para cuando te toque comprar.
 
 #gym #suplementos #proteina #wheyprotein #suplementoschile #caldera #copiapo #dymatize
+- 24 oct · 10 AM · Publicados/2026-10-24_bolso_gym.mp4 (checklist para guardar "¿Tienes todo?", 15 s) · entregado el 23 oct. Texto:
+
+Checklist del bolso del gym 🎒 ¿Tienes todo? ✅
+
+✔️ Agua
+✔️ Toalla
+✔️ Audífonos cargados
+✔️ Candado
+✔️ Shaker listo con tu scoop (Whey USN, 22 g de proteína)
+✔️ Algo para la vuelta (barra Space Protein XXL coco, 36% proteína)
+
+¿Qué se te olvida siempre? Coméntalo 👇
+🎁 Llevando proteína + creatina, shaker de regalo.
+💬 Comenta BOLSO y te mando por DM qué proteína llevar según tu objetivo.
+📌 Guárdalo y revísalo antes de salir.
+
+#gym #fitness #proteina #wheyprotein #suplementoschile #caldera #gymcaldera #usn
