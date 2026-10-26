@@ -22,3 +22,14 @@
   1. Confirmar lo publicado: la tarea diaria revisa en Metricool si el carrusel y el reel del día anterior aparecen; si no, los vuelve a poner primero y avisa al dueño, que responde "subido" al publicar.
   2. Reels de 12–15 s con el gancho escrito legible desde el primer cuadro (sin animación de entrada).
   3. Al menos 2 piezas por semana con foto o video real del dueño; el domingo se le piden 2–3 fotos o clips.
+
+## Lunes 26 oct 2026 · semana 19–25 oct (vs 12–18 oct)
+
+- **Alcance: 11 personas** (suma diaria) vs 520 (−98%). **Visualizaciones: 122** vs 3.801 (−97%). **Seguidores: 293** (+1 / −0; la semana anterior +2 / −3). Cuentas que interactuaron: 0 vs 2. Del 22 al 24 alcance 0 y visualizaciones sin dato; el dom 25 sin ninguna fila todavía.
+- **Alerta:** por segunda semana Metricool no registra ningún carrusel ni reel (el último es el reel del 11 oct) y nunca ha entregado datos de historias (alcance, respuestas, salidas: sin filas). Sin registro de "subido" del dueño. O no se publicó lo entregado (red flags, 4 mitos, scoop/huevos, reels diccionario, selector y bolso, ~20 historias) o Metricool perdió la conexión con Instagram. Visitas al perfil: métrica ya no disponible.
+- **Mejor:** nada destacable esta semana; el lun 19 (10 personas, 119 visualizaciones) fue el único día con algo de alcance. El mejor día del mes sigue siendo el mié 14 (157 personas) con la foto real del dueño con el Finaflex.
+- **Peor:** mié 22 a sáb 24: alcance 0, pese a tener historias, carrusel y reel entregados para esos días.
+- **Ajustes para esta semana (26 oct–1 nov, energía), ya en CLAUDE.md:**
+  1. Confirmar qué se subió con una captura de Estadísticas de Instagram (últimos 7 días); si sí se publicó, reconectar Instagram en Metricool.
+  2. Paquete diario liviano: 1 pieza principal + máximo 3 historias (última con sticker), para subir en menos de 5 minutos.
+  3. Lun 2 nov: carrusel por Metricool con publicación automática (cupo nuevo) como prueba de que publica y mide; esa semana al menos una foto real del dueño.
