@@ -109,3 +109,24 @@ Checklist del bolso del gym 🎒 ¿Tienes todo? ✅
 📌 Guárdalo y revísalo antes de salir.
 
 #gym #fitness #proteina #wheyprotein #suplementoschile #caldera #gymcaldera #usn
+- 27 oct · 6 PM · Publicados/2026-10-27_cafeina_peso.mp4 (educativo con cálculo + tabla "busca tu peso", 15,6 s) · entregado el 26 oct. Texto:
+
+¿Cuánta cafeína necesitas según tu peso? ⚡ Guárdalo para tu próximo entreno 📌
+
+La ciencia habla de 3 a 6 mg por kilo, 30 a 60 minutos antes de entrenar (ISSN). Para partir, lo bajo: 3 mg por kilo.
+
+⚖️ 50 kg → 150 mg
+⚖️ 60 kg → 180 mg
+⚖️ 70 kg → 210 mg (≈ 1 Guaraná Shot)
+⚖️ 80 kg → 240 mg
+⚖️ 90 kg → 270 mg
+
+Más no es mejor: el tope del día en adultos sanos es 400 mg, sumando el café (EFSA). Si entrenas tarde, ojo con el sueño.
+
+Guaraná Shot OstroVit: contiene cafeína (200 mg por shot). No apto para menores ni embarazadas. No lo combines con otros productos con cafeína.
+
+¿Cuánto pesas tú? Coméntalo 👇
+💬 Comenta ENERGIA y te mando por DM cómo usar el shot según tu horario.
+📌 Guárdalo y mándaselo a tu yunta del gym.
+
+#gym #fitness #suplementos #suplementoschile #preentreno #caldera #copiapo #atacama
