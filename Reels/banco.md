@@ -130,3 +130,19 @@ Guaraná Shot OstroVit: contiene cafeína (200 mg por shot). No apto para menore
 📌 Guárdalo y mándaselo a tu yunta del gym.
 
 #gym #fitness #suplementos #suplementoschile #preentreno #caldera #copiapo #atacama
+- 29 oct · 6 PM · Publicados/2026-10-29_shot_o_capsula.mp4 (esto o esto en pantalla dividida "¿Shot o cápsula?", 15 s) · entregado el 28 oct. Texto:
+
+¿Shot o cápsula? ⚡ Los dos te dan energía para entrenar. Mira la diferencia 👇
+
+🥤 Guaraná Shot OstroVit → 200 mg de cafeína, de un trago, sabor pera. Uno por entreno.
+💊 Lipo 6 Black (Nutrex) → 222 mg de cafeína por cápsula, con agua, sin sabor. Frasco de 60 cápsulas.
+
+Tómalo 30 a 60 min antes de entrenar. Elige uno: nunca los dos el mismo día, y suma el café (tope 400 mg al día en adultos sanos).
+
+Guaraná Shot: contiene cafeína (200 mg por shot). Lipo 6: contiene cafeína (222 mg por cápsula). No aptos para menores ni embarazadas. Si tomas medicamentos o tienes alguna enfermedad, consulta a tu médico.
+
+¿Team shot o team cápsula? Coméntalo 👇
+💬 Comenta ENERGIA y te digo por DM cuál te conviene según tu horario.
+📌 Guárdalo para tu próximo entreno.
+
+#gym #fitness #suplementos #suplementoschile #preentreno #caldera #copiapo #nutrex
