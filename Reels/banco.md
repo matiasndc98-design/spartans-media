@@ -5,21 +5,7 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-### Sáb 31 oct · 10 AM · Por_subir/2026-10-31_pov_energia.mp4 (POV con batería; semana de la energía. Ojo: es anterior al estilo premium y al ajuste del gancho en el cuadro 0, conviene rehacerlo antes de entregar)
-POV: son las 6 PM y cero ganas de entrenar 🪫 Tu plan para cargar batería 🔋
-
-✅ Come algo liviano 1 a 2 horas antes
-✅ Toma agua y llega hidratado
-✅ Cafeína 30 a 60 min antes, si la toleras
-
-¿Al paso? Guaraná Shot OstroVit, 200 mg de cafeína, sabor pera ⚡
-Si entrenas muy tarde, ojo con el sueño.
-
-Guaraná Shot: contiene cafeína (200 mg por shot). No apto para menores ni embarazadas.
-
-📩 Escríbenos y te lo llevamos.
-
-#gym #fitness #suplementos #suplementoschile #preentreno #caldera #copiapo #atacama
+(vacío: crear un reel nuevo de un tipo distinto al último, POV con batería)
 
 ## Publicados
 - 11 oct · Publicados/2026-10-11_nuevo_stock.mp4 (subido a mano por el dueño)
@@ -146,3 +132,18 @@ Guaraná Shot: contiene cafeína (200 mg por shot). Lipo 6: contiene cafeína (2
 📌 Guárdalo para tu próximo entreno.
 
 #gym #fitness #suplementos #suplementoschile #preentreno #caldera #copiapo #nutrex
+- 31 oct · 10 AM · Publicados/2026-10-31_pov_bateria.mp4 (POV con batería, estilo premium, 15 s; rehecho del antiguo pov_energia) · entregado el 30 oct. Texto:
+
+POV: son las 6 PM y tu batería dice que no 🪫 Ni en Halloween te salvas 🎃
+
+Así se carga:
+👟 Te pones las zapatillas (ya ganaste la mitad)
+💧 Agua y algo liviano 1 a 2 horas antes
+⚡ Guaraná Shot 30 a 60 min antes, si toleras la cafeína
+
+Guaraná Shot: contiene cafeína (200 mg por shot). No apto para menores ni embarazadas.
+
+💬 ¿Con cuánta batería llegas hoy? Comenta tu % 👇 Y comenta ENERGIA y te mando por DM cómo pedir tu shot.
+📌 Guárdalo para el próximo día sin ganas.
+
+#gym #fitness #suplementos #suplementoschile #gymcaldera #caldera #copiapo #atacama
