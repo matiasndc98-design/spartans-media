@@ -61,7 +61,15 @@ El dueño encontró el estilo anterior "fome, de cabro chico" (mucho texto, recu
 - Marca discreta arriba a la izquierda (casco + SPARTANS) y numeración de lámina solo en carruseles.
 - Fotos y videos reales del dueño siempre por sobre los renders.
 
-## Qué tipo de contenido (pedido del dueño el 19 oct: "el contenido está fome")
+## DIRECCIÓN VIGENTE (decisión del dueño del 1 nov: "ultra fome, como de cabro chico")
+
+Lo que le suena infantil: **los textos y chistes** (humor tipo "red flags", "diccionario del gym", "modo espartano", POV, Halloween) y **demasiado educativo** (clases de cafeína, proteína, creatina; fuentes ISSN/EFSA en pantalla). Eligió **"marca grande, sobria"** (estilo Gymshark / Optimum Nutrition):
+- Producto héroe, mucho negro, titular de 2 a 5 palabras y como máximo un dato del envase (gramos, porciones). Sin chistes, sin juegos de palabras, sin listas, sin "lo que sí y lo que no", sin calendarios ni gráficos didácticos.
+- Tono seguro y adulto, frases cortas ("Lo básico. Todos los días."). Captions breves: 1–2 líneas + llamado al DM + hashtags.
+- Reels: nada de texto animado con chistes ni cálculos; preferir video real del dueño o tomas sobrias del producto con un titular.
+- Esta dirección **reemplaza** la sección de abajo del 19 oct (humor y rutinas) y los reels de humor/educativos del banco: no reutilizarlos. Ejemplo: `kit/build/stories_sobrio_base.py`.
+
+## (Reemplazado el 1 nov) Qué tipo de contenido (pedido del dueño el 19 oct: "el contenido está fome")
 
 Menos clases y mitos; más contenido que la gente quiera compartir o guardar:
 - **Humor identificable de gym** (ej. `kit/build/red_flags.py`: "Red flags en el gym"), POV, "cosas que solo entiende el que entrena"; remate final con producto y "comenta tu…". Nada de memes ajenos (derechos): humor propio o con fotos/videos del dueño.
@@ -134,7 +142,7 @@ Ajustes del informe del 19 oct (vigentes desde el 19 oct):
 Ajustes del informe del 26 oct (vigentes desde el 26 oct):
 - Metricool no registra ningún carrusel ni reel desde el 11 oct, nunca ha registrado historias, y el alcance cayó a 11 personas del 19 al 25 oct (0 del 22 al 24). Hasta que el dueño confirme qué subió, cada "QUÉ SUBIR MAÑANA" le pide una captura de Estadísticas de Instagram (últimos 7 días) y, si sí publicó, que reconecte Instagram en Metricool.
 - Paquete diario liviano mientras no se confirme lo publicado: 1 pieza principal (carrusel o reel) + máximo 3 historias (la última con sticker). Que subirlo tome menos de 5 minutos.
-- **1 nov: el dueño confirmó que no ha subido nada de lo entregado desde el 11 oct** (por eso Metricool no registraba nada). Ya no pedir captura de estadísticas por eso. Todo lo entregado del 12 al 31 oct está sin publicar y sirve como banco (reels en `Reels/Publicados/` con su texto en `banco.md`): reutilizarlo antes de crear algo nuevo, priorizando lo atemporal (humor, checklist). Mantener el paquete diario liviano.
+- **1 nov: el dueño confirmó que no ha subido nada de lo entregado desde el 11 oct** (por eso Metricool no registraba nada). Ya no pedir captura de estadísticas por eso. Lo entregado del 12 al 31 oct quedó sin publicar, pero NO se reutiliza (el dueño lo encontró infantil, ver DIRECCIÓN VIGENTE). Mantener el paquete diario liviano.
 - Lunes 2 nov: el carrusel va sí o sí por Metricool con autoPublish true (cupo nuevo de noviembre) como prueba de que publica y mide. Esa semana, al menos una pieza con foto real del dueño (el mejor día sigue siendo el 14 oct, foto real con el Finaflex).
 
 Reels: animados con `kit/build/reel.py` (base). **Variar el tipo** (pedido del dueño), sin repetir el mismo tipo dos veces seguidas: educativo con cálculo (`reel_proteina.py`, el que más le gustó: gancho con pregunta → dato con fuente → ejemplo → cómo aplicarlo → remate con producto), comparativa con barras (`reel_creatinas.py`), lista de errores para guardar (`reel_errores_creatina.py`), POV con batería (`reel_pov_energia.py`), lanzamiento de productos (`reel.py`). Otras ideas: mito o verdad rápido, antes de entrenar vs después, "esto o esto", checklist del bolso del gym, cuenta regresiva. 12–15 s con gancho legible desde el cuadro 0 (ajuste del 19 oct), con sonido original (`kit/build/sonido.py`, se agrega solo al renderizar: solo efectos sincronizados con cada animación, SIN música ni base: la música la pone el dueño en Instagram), se entregan al dueño para que los suba a mano. Próximo paso para innovar: editar clips reales del dueño (manos, scoop, shaker, pedidos; ASMR). En reels de producto, cada producto en pantalla 2,5 s (decisión del dueño). Cada reel nuevo debe mejorar algo respecto del anterior (ritmo, gancho, transición o dato). Si el dueño manda video real, se edita y se prioriza. Las historias interactivas van en modo aviso (`autoPublish: false`, ver Cómo publicar) para que el dueño agregue el sticker.
