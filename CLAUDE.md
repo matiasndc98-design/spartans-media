@@ -153,7 +153,7 @@ Mezcla en cada caption (máximo 8): 2 grandes, 3 de nicho y 3 locales. Grandes: 
 
 ## Estructura del repositorio
 
-- `Feed/` — publicaciones del feed: `Feed/AAAA-MM-DD/` por fecha (solo piezas nuevas, nunca copias de láminas del catálogo) y `Feed/Catalogo/` (portada + una lámina por producto + cómo comprar, generado con `kit/build/slides.py`). No repetir imágenes en dos carpetas: si una pieza usa láminas del catálogo, se referencian desde `Feed/Catalogo/`.
+- `Feed/` — publicaciones del feed: `Feed/AAAA-MM-DD/` por fecha (solo piezas nuevas, nunca copias de láminas del catálogo) `Feed/Banco/` (piezas sueltas aprobadas por el dueño, sin fecha: pósters de producto `poster.py`, frases aesthetic `aesthetic.py` — al dueño le encantó "Molon labe", hacer más de esa serie) y `Feed/Catalogo/` (portada + una lámina por producto + cómo comprar, generado con `kit/build/slides.py`). No repetir imágenes en dos carpetas: si una pieza usa láminas del catálogo, se referencian desde `Feed/Catalogo/`.
 - `Historias/` — historias: `Historias/AAAA-MM-DD/` por fecha, `Historias/Series/` reutilizables y `Fijas/stock_disponible.jpg`.
 - `Destacadas/` — portadas e historias fijas de las destacadas.
 - `Logo/` — logo oficial: `logo_spartans.svg` (vector), `logo_spartans_transparente.png`, `logo_spartans_perfil.png` (foto de perfil).
