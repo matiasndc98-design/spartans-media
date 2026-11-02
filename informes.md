@@ -33,3 +33,15 @@
   1. Confirmar qué se subió con una captura de Estadísticas de Instagram (últimos 7 días); si sí se publicó, reconectar Instagram en Metricool.
   2. Paquete diario liviano: 1 pieza principal + máximo 3 historias (última con sticker), para subir en menos de 5 minutos.
   3. Lun 2 nov: carrusel por Metricool con publicación automática (cupo nuevo) como prueba de que publica y mide; esa semana al menos una foto real del dueño.
+
+## Lunes 2 nov 2026 · semana 26 oct–1 nov (vs 19–25 oct)
+
+- **Alcance: 87 personas** (suma diaria) vs 11 (+691%). **Visualizaciones: 276** vs 122 (+126%). **Seguidores: 292** (+0 / −1) vs 293 (+1 / −0). Cuentas que interactuaron: 3 vs 0. El dom 1 nov aún sin datos (Metricool sincroniza con retraso).
+- Metricool no registra ningún carrusel, reel ni historia en el período (sin filas), lo que calza con lo que confirmó el dueño: no subió nada del 12 al 31 oct. Visitas al perfil, respuestas y salidas de historias: sin datos (la métrica de visitas ya no existe).
+- **Mejor:** lun 26 (61 personas, 128 visualizaciones) y mar 27 (25 personas, 142). Sin publicaciones registradas no puedo saber de dónde vino; hay que preguntarle al dueño si subió algo propio esos días (historia, foto). Así sabremos qué mueve la cuenta sin contenido nuestro.
+- **Peor:** mié 28 a sáb 31: 0–1 persona al día. Cuatro días seguidos sin nada publicado dejan la cuenta en cero.
+- Hoy lun 2 nov 10 AM el carrusel "La base" quedó programado en Metricool con autoPublish (estado "pendiente" a las 10:02): es la primera prueba real de publicación automática desde el 11 oct.
+- **Ajustes para esta semana (2–8 nov, base y constancia), ya en CLAUDE.md:**
+  1. El martes, confirmar que el carrusel del lunes salió y mide; si falló, que el dueño reconecte Instagram en Metricool antes de programar el viernes.
+  2. Una sola pieza por día, la más importante primero, para que publicar no le cueste.
+  3. Proponerle al dueño que los reels también salgan solos por Metricool (sonido original, sin su música): ~16 publicaciones al mes, bajo el tope de 18. Hasta que diga que sí, siguen a mano.
