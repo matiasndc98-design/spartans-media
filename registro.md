@@ -81,3 +81,4 @@
 - 2026-11-01 · historias (3) · lunes tema de la semana (sobrio): FOTO REAL del dueño con Finaflex "Constancia. 200 porciones. Cero excusas.", promo "Proteína + creatina. Shaker de regalo.", encuesta "¿Cuántos días entrenas?" · Historias/2026-11-02/ · kit/build/lunes_la_base.py · para lun 2 nov 10 AM, entregado a mano
 - 2026-11-01 · ajuste · p_whey.png: reparado el borde del hombro del tarro (muescas del recorte que se notaban en tomas grandes)
 - 2026-11-02 · banco · el dueño aprobó la pieza aesthetic "Molon labe" ("está sólida") y el póster Nitro Tech; guardadas en Feed/Banco/
+- 2026-11-02 · estoico · Molon labe es para una futura cuenta de contenido estoico del dueño, no para Spartans: movida a Estoico/
