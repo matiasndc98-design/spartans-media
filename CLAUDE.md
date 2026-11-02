@@ -77,6 +77,10 @@ Menos clases y mitos; más contenido que la gente quiera compartir o guardar:
 - **Material real del dueño** (fotos/videos con el producto, pedidos, tienda) siempre primero.
 - Lo educativo va en dosis chicas y con un gancho (pregunta polémica, número sorprendente), no como lista de mitos.
 
+## Manual de crecimiento
+
+Lee y aplica `Estrategia/manual.md` (investigación del 2 nov: algoritmo, venta por DM, Gymshark, copy de respuesta directa, ventaja local) en cada pieza. Lo más importante: optimizar para envíos y tiempo de visualización, una sola acción por pieza, máximo 5 hashtags, ubicación etiquetada, material real del dueño y responder DMs rápido.
+
 ## Cómo generar imágenes
 
 Requisitos (ya presentes en el entorno): Python, Playwright con Chromium, Pillow.
@@ -154,7 +158,7 @@ Reels: animados con `kit/build/reel.py` (base). **Variar el tipo** (pedido del d
 
 ## Hashtags
 
-Mezcla en cada caption (máximo 8): 2 grandes, 3 de nicho y 3 locales. Grandes: #gym #fitness #suplementos. Nicho: #suplementosdeportivos #suplementoschile #proteina #creatina #wheyprotein #hipertrofia. Locales: #caldera #copiapo #atacama #suplementoscaldera #gymcaldera #spartans. Agrega la marca del producto cuando corresponda (#dymatize #muscletech #usn #nutrex).
+Máximo 5 hashtags por caption (Instagram limita a 5 y no dan alcance): 1 grande, 2 de nicho y 2 locales. Etiqueta la ubicación (Caldera o Copiapó). Grandes: #gym #fitness #suplementos. Nicho: #suplementosdeportivos #suplementoschile #proteina #creatina #wheyprotein #hipertrofia. Locales: #caldera #copiapo #atacama #suplementoscaldera #gymcaldera #spartans. Agrega la marca del producto cuando corresponda (#dymatize #muscletech #usn #nutrex).
 
 ## Estructura del repositorio
 

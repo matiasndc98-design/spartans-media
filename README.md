@@ -17,6 +17,7 @@ Todo el material de @spartan_fitness_spa, ordenado por tipo.
 | `Reels/Por_subir/` | Reels listos, con la fecha en que toca subirlos en el nombre |
 | `Reels/Publicados/` | Reels ya subidos |
 | `Reels/banco.md` | Texto (caption) de cada reel, listo para copiar |
+| `Estrategia/manual.md` | Manual de crecimiento: cómo reparte Instagram, cómo vender por DM, ideas de Gymshark y ventaja local |
 | `Robot/` | Robot gratis para publicar (pendiente de configurar) |
 | `kit/` | Taller de diseño: scripts, fuentes, íconos e imágenes recortadas |
 

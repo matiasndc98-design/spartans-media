@@ -83,3 +83,4 @@
 - 2026-11-02 · banco · el dueño aprobó la pieza aesthetic "Molon labe" ("está sólida") y el póster Nitro Tech; guardadas en Feed/Banco/
 - 2026-11-02 · estoico · Molon labe es para una futura cuenta de contenido estoico del dueño, no para Spartans: movida a Estoico/
 - 2026-11-02 · feedback · el carrusel "La base. No se negocia." (estilo SOBRIO, recorte editorial) salió solo por Metricool a las 10 AM y al dueño le gustó: seguir esta línea
+- 2026-11-02 · estrategia · investigación de marketing (algoritmo 2026, venta por Reels/DM, Gymshark, copy de respuesta directa, negocio local) → Estrategia/manual.md; hashtags bajan a máximo 5 + ubicación
