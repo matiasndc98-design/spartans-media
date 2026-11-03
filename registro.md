@@ -84,3 +84,5 @@
 - 2026-11-02 · estoico · Molon labe es para una futura cuenta de contenido estoico del dueño, no para Spartans: movida a Estoico/
 - 2026-11-02 · feedback · el carrusel "La base. No se negocia." (estilo SOBRIO, recorte editorial) salió solo por Metricool a las 10 AM y al dueño le gustó: seguir esta línea
 - 2026-11-02 · estrategia · investigación de marketing (algoritmo 2026, venta por Reels/DM, Gymshark, copy de respuesta directa, negocio local) → Estrategia/manual.md; hashtags bajan a máximo 5 + ubicación
+- 2026-11-03 · historias (2) · miércoles "Producto de la semana" (estilo SOBRIO, paquete corto): Creatina USN 300 g sin sabor; idea nueva TEASER EN MACRO → REVELADO (1: primerísimo plano del envase "Lo básico tiene nombre."; 2: producto completo "Creatina. 60 días." sin sabor · 5 g al día, con caja de preguntas "¿Qué quieres saber de la creatina?") · Historias/2026-11-04/ · kit/build/stories_producto_usn_crea.py · para mié 4 nov 10 AM, entregado a mano
+- 2026-11-03 · metricool · confirmado: el carrusel "La base" del lun 2 nov salió publicado (1 de 20 usado en noviembre); se le preguntó al dueño si los reels también van por Metricool con sonido original
