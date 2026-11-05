@@ -5,7 +5,7 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-(vacío: crear un reel nuevo de un tipo distinto al último, POV con batería)
+(vacío: crear un reel nuevo de un tipo distinto al último, stack que se arma)
 
 ## Publicados
 - 11 oct · Publicados/2026-10-11_nuevo_stock.mp4 (subido a mano por el dueño)
@@ -147,3 +147,13 @@ Guaraná Shot: contiene cafeína (200 mg por shot). No apto para menores ni emba
 📌 Guárdalo para el próximo día sin ganas.
 
 #gym #fitness #suplementos #suplementoschile #gymcaldera #caldera #copiapo #atacama
+- 5 nov · 6 PM · Publicados/2026-11-05_arma_tu_base.mp4 (producto, tipo nuevo STACK QUE SE ARMA, estilo sobrio, 15,5 s) · entregado el 4 nov. Texto:
+
+Arma tu base. Lo básico, todos los días.
+
+Multivitamínico USN · Omega 3 USN · Creatina MuscleTech Platinum · Proteína ISO 100 de Dymatize.
+🎁 Proteína + creatina: shaker C4 de regalo.
+
+💬 Comenta BASE y te mando por DM cómo armar la tuya.
+
+#gym #suplementoschile #creatina #caldera #copiapo
