@@ -93,3 +93,5 @@
 - 2026-11-06 · historias (2) · sábado "esto o esto" (sobrio): "¿Uva o sin sabor?" MuscleTech Platinum uva vs sin sabor (encuesta) + "¿Hoy entrenas?" con barra Space Protein XXL (encuesta) · Historias/2026-11-07/ · kit/build/stories_sabado_uva.py · para sáb 7 nov 10 AM, entregado a mano
 - 2026-11-06 · ajuste · p_mt_uva.png y p_mt_sin.png sin el plato blanco de la sombra original bajo el tarro
 - 2026-11-06 · metricool · noviembre: 2 de 20 usadas (carruseles lun 2 y vie 6 publicados bien)
+- 2026-11-07 · historias (2) · domingo "Resumen y llamado al DM" (estilo SOBRIO, paquete corto): idea nueva RESPONDE ESTA HISTORIA (la respuesta llega directo al DM, una sola acción): "Semana nueva. Misma base." Whey USN + Creatina USN + shaker C4 de regalo; caja de preguntas "¿Qué te falta? Antes del lunes" con Multivitamínico USN, DM + delivery $1.500 · Historias/2026-11-08/ · kit/build/stories_domingo_responde.py · para dom 8 nov 10 AM, entregado a mano
+- 2026-11-07 · ajuste · p_usn_crea.png sin el plato blanco de la sombra original bajo el tarro
