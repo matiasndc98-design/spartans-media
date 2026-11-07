@@ -5,7 +5,7 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-(vacío: crear un reel nuevo de un tipo distinto al último, stack que se arma)
+(vacío: crear un reel nuevo de un tipo distinto al último, de cerca → completo)
 
 ## Publicados
 - 11 oct · Publicados/2026-10-11_nuevo_stock.mp4 (subido a mano por el dueño)
@@ -157,3 +157,14 @@ Multivitamínico USN · Omega 3 USN · Creatina MuscleTech Platinum · Proteína
 💬 Comenta BASE y te mando por DM cómo armar la tuya.
 
 #gym #suplementoschile #creatina #caldera #copiapo
+- 7 nov · 10 AM · Publicados/2026-11-07_el_sabado_tambien_cuenta.mp4 (producto, tipo nuevo DE CERCA → COMPLETO: macro de la etiqueta que se abre al producto entero, estilo sobrio, 15 s) · entregado el 6 nov. Texto:
+
+El sábado también cuenta. Lo básico, todos los días. 🏛️
+
+Creatina Finaflex 1 kg · Creatina MuscleTech Platinum uva · Barra Space Protein XXL.
+🎁 Proteína + creatina: shaker C4 de regalo.
+
+💬 Comenta SABADO y te mando por DM cuál te conviene.
+📌 Guárdalo para tu próxima compra.
+
+#gym #creatina #suplementoschile #caldera #copiapo
