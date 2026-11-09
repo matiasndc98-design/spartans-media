@@ -45,3 +45,14 @@
   1. El martes, confirmar que el carrusel del lunes salió y mide; si falló, que el dueño reconecte Instagram en Metricool antes de programar el viernes.
   2. Una sola pieza por día, la más importante primero, para que publicar no le cueste.
   3. Proponerle al dueño que los reels también salgan solos por Metricool (sonido original, sin su música): ~16 publicaciones al mes, bajo el tope de 18. Hasta que diga que sí, siguen a mano.
+
+## Lunes 9 nov 2026 · semana 2–8 nov (vs 26 oct–1 nov)
+
+- **Visualizaciones: 970** vs 440 (+120%). **Alcance: 134 personas** (suma diaria) vs 155 (−14%; el dom 1 nov ya trae 68). **Seguidores: 290** vs 292 (+2 / −2 registrados; −2 netos). Cuentas que interactuaron: 6 vs 3. El dom 8 aún sin datos.
+- Metricool registra solo los 2 carruseles que salieron solos. Reels: ninguno (el del jue 5 y el del sáb 7 se entregaron a mano). Historias: ninguna fila (alcance, respuestas y salidas sin datos). Visitas al perfil: métrica ya no disponible.
+- **Mejor:** carrusel "La base no se negocia" (lun 2): 43 personas, 169 visualizaciones, 3 me gusta; ese día la cuenta tuvo 74 personas y 626 visualizaciones, el mejor desde el 15 oct. Funcionó porque salió solo a la hora óptima y con el estilo sobrio que le gustó al dueño (recorte editorial).
+- **Peor:** "Elige tu proteína" (vie 6): 29 personas, 116 visualizaciones, 2 me gusta. Ambos carruseles con 0 comentarios, 0 guardados y 0 compartidos. Y jue 5 y sáb 7 (días de reel a mano): 5 y 4 personas.
+- **Ajustes para esta semana (9–15 nov, creatina), ya en CLAUDE.md:**
+  1. Miércoles 10 AM: una foto de feed por Metricool con publicación automática (producto de la semana, ojalá foto real del dueño). Lo automático es lo único que hoy llega.
+  2. Llamado más fácil: cerrar con una pregunta de una palabra o número ("¿Cuál es la tuya? 1, 2, 3 o 4") en vez de "comenta X y te mando por DM".
+  3. Volver a pedirle al dueño un sí/no a publicar los reels por Metricool con sonido original; hasta entonces siguen a mano.
