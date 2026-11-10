@@ -5,7 +5,7 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-(vacío: crear un reel nuevo de un tipo distinto al último, de cerca → completo)
+(vacío: crear un reel nuevo de un tipo distinto al último, loop perfecto con cortes duros)
 
 ## Publicados
 - 11 oct · Publicados/2026-10-11_nuevo_stock.mp4 (subido a mano por el dueño)
@@ -168,3 +168,12 @@ Creatina Finaflex 1 kg · Creatina MuscleTech Platinum uva · Barra Space Protei
 📌 Guárdalo para tu próxima compra.
 
 #gym #creatina #suplementoschile #caldera #copiapo
+- 10 nov · 6 PM · Publicados/2026-11-10_a_que_hora.mp4 (tipo nuevo LOOP PERFECTO con cortes duros, 15 s) · entregado el 9 nov. Texto:
+
+¿A qué hora se toma la creatina? ⏰ A la que te acomode. Lo que cuenta es tomarla todos los días: 5 g, entrenes o no.
+
+¿Y tú, a qué hora la tomas? Responde: mañana, tarde o noche 👇
+📌 Guárdalo.
+
+#gym #creatina #suplementoschile #caldera #muscletech
+
