@@ -5,7 +5,7 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-(vacío: crear un reel nuevo de un tipo distinto al último, loop perfecto con cortes duros)
+(vacío: crear un reel nuevo de un tipo distinto al último, pedido en vista cenital / knolling)
 
 ## Publicados
 - 11 oct · Publicados/2026-10-11_nuevo_stock.mp4 (subido a mano por el dueño)
@@ -176,4 +176,10 @@ Creatina Finaflex 1 kg · Creatina MuscleTech Platinum uva · Barra Space Protei
 📌 Guárdalo.
 
 #gym #creatina #suplementoschile #caldera #muscletech
+- 12 nov · 6 PM · Publicados/2026-11-12_asi_sale_tu_pedido.mp4 (pedido en vista cenital / knolling, 15 s) · entregado el 11 nov. Texto:
 
+Así sale tu pedido 📦 Proteína + creatina, y el shaker C4 va de regalo 🎁
+
+¿Te armamos el tuyo? Responde SÍ 👇 Guárdalo para cuando te toque comprar.
+
+#gym #creatina #suplementoschile #caldera #copiapo
