@@ -5,7 +5,7 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-(vacío: crear un reel nuevo de un tipo distinto al último, pedido en vista cenital / knolling)
+(vacío: crear un reel nuevo de un tipo distinto al último, vitrina giratoria / tornamesa)
 
 ## Publicados
 - 11 oct · Publicados/2026-10-11_nuevo_stock.mp4 (subido a mano por el dueño)
@@ -183,3 +183,10 @@ Así sale tu pedido 📦 Proteína + creatina, y el shaker C4 va de regalo 🎁
 ¿Te armamos el tuyo? Responde SÍ 👇 Guárdalo para cuando te toque comprar.
 
 #gym #creatina #suplementoschile #caldera #copiapo
+- 14 nov · 10 AM · Publicados/2026-11-14_vitrina_giratoria.mp4 (vitrina giratoria / tornamesa 360, 15,5 s) · entregado el 13 nov. Texto:
+
+Después de entrenar, ¿cuál va? 🏛️ 22, 25 o 30 g de proteína por porción, o la barra al paso.
+
+¿Cuál es la tuya? Responde 1, 2, 3 o 4 👇 Guárdalo para cuando te toque comprar.
+
+#gym #proteina #wheyprotein #caldera #copiapo
