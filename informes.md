@@ -56,3 +56,14 @@
   1. Miércoles 10 AM: una foto de feed por Metricool con publicación automática (producto de la semana, ojalá foto real del dueño). Lo automático es lo único que hoy llega.
   2. Llamado más fácil: cerrar con una pregunta de una palabra o número ("¿Cuál es la tuya? 1, 2, 3 o 4") en vez de "comenta X y te mando por DM".
   3. Volver a pedirle al dueño un sí/no a publicar los reels por Metricool con sonido original; hasta entonces siguen a mano.
+
+## Lunes 16 nov 2026 · semana 9–15 nov (vs 2–8 nov)
+
+- **Alcance: 159 personas** (suma diaria) vs 137 (+16%). **Alcance de las publicaciones del feed: 156** vs 83 (+88%; 3 piezas vs 2). **Visualizaciones: 479** vs 986 (−51%; la semana anterior la infló el lun 2 con 626). Seguidores: 290 (+4 / −5 registrados, sin cambio neto). Cuentas que interactuaron: 2 vs 6. El dom 15 aún sin datos.
+- Metricool registra solo las 3 piezas automáticas (lun, mié, vie). Reels: ninguno. Historias: ninguna fila (alcance, respuestas y salidas sin datos). Visitas al perfil: métrica ya no disponible.
+- **Mejor:** carrusel panorámico "Cuatro creatinas" (lun 9): 91 personas, 231 visualizaciones, 2 me gusta y el primer guardado del mes. Funcionó por el formato continuo (invita a deslizar) y un dato útil para guardar en la portada (de 60 a 200 días), publicado solo a las 10 AM.
+- **Peor:** "Arma tu combo" (vie 13): 31 personas, 134 visualizaciones y 0 interacciones; el llamado con códigos ("1D") pedía demasiado. La foto del mié 11 (34 personas) tampoco tuvo ni un me gusta. Jue 12 y sáb 14, sin publicación automática: 5 y 6 personas.
+- **Ajustes para esta semana (16–22 nov, proteína), ya en CLAUDE.md:**
+  1. Sábado 10 AM: también una pieza de feed automática por Metricool (desde el 21 nov). Cupo de noviembre: ~14 de 20.
+  2. Un carrusel panorámico continuo por semana, con un dato para guardar en la portada: el próximo, viernes 20 nov.
+  3. Llamado más simple: una pregunta de una palabra con 2 opciones, sin códigos. Se mantiene "guárdalo".
