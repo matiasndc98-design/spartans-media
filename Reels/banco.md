@@ -5,7 +5,7 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-(vacío: crear un reel nuevo de un tipo distinto al último, vitrina giratoria / tornamesa)
+(vacío: crear un reel nuevo de un tipo distinto al último, pantalla dividida)
 
 ## Publicados
 - 11 oct · Publicados/2026-10-11_nuevo_stock.mp4 (subido a mano por el dueño)
@@ -188,5 +188,12 @@ Así sale tu pedido 📦 Proteína + creatina, y el shaker C4 va de regalo 🎁
 Después de entrenar, ¿cuál va? 🏛️ 22, 25 o 30 g de proteína por porción, o la barra al paso.
 
 ¿Cuál es la tuya? Responde 1, 2, 3 o 4 👇 Guárdalo para cuando te toque comprar.
+
+#gym #proteina #wheyprotein #caldera #copiapo
+- 17 nov · 6 PM · Publicados/2026-11-17_antes_o_despues.mp4 (pantalla dividida "¿Antes o después de entrenar?", 15 s) · entregado el 16 nov. Texto:
+
+¿Antes o después de entrenar? 🤔 Las dos sirven: lo que más cuenta es la proteína total del día.
+
+¿Y tú? Responde: antes o después 👇 Pídela por DM, delivery en Caldera $1.500. 📌 Guárdalo.
 
 #gym #proteina #wheyprotein #caldera #copiapo
