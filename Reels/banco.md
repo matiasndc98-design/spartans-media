@@ -5,7 +5,7 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-(vacío: crear un reel nuevo de un tipo distinto al último, pantalla dividida)
+(vacío: crear un reel nuevo de un tipo distinto al último, barrido de luz / revelado en silueta)
 
 ## Publicados
 - 11 oct · Publicados/2026-10-11_nuevo_stock.mp4 (subido a mano por el dueño)
@@ -195,5 +195,12 @@ Después de entrenar, ¿cuál va? 🏛️ 22, 25 o 30 g de proteína por porció
 ¿Antes o después de entrenar? 🤔 Las dos sirven: lo que más cuenta es la proteína total del día.
 
 ¿Y tú? Responde: antes o después 👇 Pídela por DM, delivery en Caldera $1.500. 📌 Guárdalo.
+
+#gym #proteina #wheyprotein #caldera #copiapo
+- 19 nov · 6 PM · Publicados/2026-11-19_elige_tu_sabor.mp4 (barrido de luz / revelado en silueta, 15 s) · entregado el 18 nov. Texto:
+
+Elige tu sabor. Chocolate, Cocoa Pebbles, vainilla o coco. 🏛️
+
+¿Chocolate o vainilla? Responde con una palabra 👇 Guárdalo para cuando te toque comprar.
 
 #gym #proteina #wheyprotein #caldera #copiapo
