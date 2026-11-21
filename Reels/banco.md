@@ -5,7 +5,7 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-(vacío: crear un reel nuevo de un tipo distinto al último, barrido de luz / revelado en silueta)
+(vacío: crear un reel nuevo de un tipo distinto al último, formato cine / corte por forma)
 
 ## Publicados
 - 11 oct · Publicados/2026-10-11_nuevo_stock.mp4 (subido a mano por el dueño)
@@ -204,3 +204,12 @@ Elige tu sabor. Chocolate, Cocoa Pebbles, vainilla o coco. 🏛️
 ¿Chocolate o vainilla? Responde con una palabra 👇 Guárdalo para cuando te toque comprar.
 
 #gym #proteina #wheyprotein #caldera #copiapo
+- 21 nov · 10 AM · Publicados/2026-11-21_lo_basico_no_descansa.mp4 (formato cine / corte por forma, 15 s) · entregado el 20 nov. Texto:
+
+Lo básico no descansa. Ni el sábado. 🏛️
+
+Multivitamínico, Omega 3, creatina y proteína: lo de todos los días.
+
+¿Tienes tu base? Responde SÍ o NO 👇 Guárdalo para cuando te toque comprar.
+
+#gym #suplementos #suplementoschile #caldera #copiapo
