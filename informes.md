@@ -67,3 +67,14 @@
   1. Sábado 10 AM: también una pieza de feed automática por Metricool (desde el 21 nov). Cupo de noviembre: ~14 de 20.
   2. Un carrusel panorámico continuo por semana, con un dato para guardar en la portada: el próximo, viernes 20 nov.
   3. Llamado más simple: una pregunta de una palabra con 2 opciones, sin códigos. Se mantiene "guárdalo".
+
+## Lunes 23 nov 2026 · semana 16–22 nov (vs 9–15 nov)
+
+- **Alcance: 129 personas** (suma diaria) vs 160 (−19%). **Visualizaciones: 466** vs 489 (−5%). **Alcance de las publicaciones del feed: 131** vs 164 (−20%; 4 piezas vs 3). Seguidores: 292 (+1 / −0; +2 netos vs 290). Interacciones: 2 vs 2; cuentas que interactuaron: 2 vs 2. El dom 22 aún sin datos.
+- Metricool registra solo las 4 piezas automáticas (lun, mié, vie, sáb). Reels: ninguno. Historias: ninguna fila (alcance, respuestas y salidas sin datos). Visitas al perfil: sin datos.
+- **Mejor:** foto "Todo en un scoop" Nitro Tech (mié 18): 39 personas, 103 visualizaciones. Funcionó por el dato concreto y único del envase (30 g + 3 g de creatina) y el haz de luz que se lee al tiro. Destacado: el sábado automático (Guaraná, sáb 21) llevó el día a 32 personas, vs 6 el sábado anterior.
+- **Peor:** panorámico "Un scoop + 5 g" (vie 20): 28 personas, 130 visualizaciones, 0 interacciones; no repitió a "Cuatro creatinas" (91) porque la portada era un eslogan y no un número para guardar. Todas las piezas: 0 comentarios, 0 guardados, 0 compartidos (2 me gusta en total). Mar 17 y jue 19, sin publicación automática: 4 y 5 personas.
+- **Ajustes para esta semana (23–29 nov, energía), ya en CLAUDE.md:**
+  1. Se mantienen los 4 días automáticos. Para martes y jueves, pedirle al dueño activar el robot gratis (IG_TOKEN e IG_USER_ID) junto con el sí/no de los reels.
+  2. Panorámico del vie 27: portada con una comparación numérica (días o entrenamientos que dura cada envase), como "Cuatro creatinas".
+  3. Cambiar el llamado: "Mándaselo a quien entrena contigo. Guárdalo." en vez de preguntas, para buscar envíos.
