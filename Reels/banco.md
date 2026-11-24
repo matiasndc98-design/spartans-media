@@ -5,7 +5,7 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-(vacío: crear un reel nuevo de un tipo distinto al último, formato cine / corte por forma)
+(vacío: crear un reel nuevo de un tipo distinto al último, reloj que avanza)
 
 ## Publicados
 - 11 oct · Publicados/2026-10-11_nuevo_stock.mp4 (subido a mano por el dueño)
@@ -211,5 +211,14 @@ Lo básico no descansa. Ni el sábado. 🏛️
 Multivitamínico, Omega 3, creatina y proteína: lo de todos los días.
 
 ¿Tienes tu base? Responde SÍ o NO 👇 Guárdalo para cuando te toque comprar.
+
+#gym #suplementos #suplementoschile #caldera #copiapo
+- 24 nov · 6 PM · Publicados/2026-11-24_cuanto_antes.mp4 (reloj que avanza / hora en pantalla, 15 s) · entregado el 23 nov. Texto:
+
+¿Cuánto antes de entrenar? ⏰ De 30 a 60 minutos antes. Lipo 6 Black o Guaraná Shot: uno de los dos, nunca juntos.
+
+Contiene cafeína (222 mg por cápsula / 200 mg por shot). No apto para menores ni embarazadas.
+
+Mándaselo a quien entrena contigo. 📌 Guárdalo.
 
 #gym #suplementos #suplementoschile #caldera #copiapo
