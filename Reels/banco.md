@@ -5,7 +5,7 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-(vacío: crear un reel nuevo de un tipo distinto al último, reloj que avanza)
+(vacío: crear un reel nuevo de un tipo distinto al último, profundidad 2.5D / parallax)
 
 ## Publicados
 - 11 oct · Publicados/2026-10-11_nuevo_stock.mp4 (subido a mano por el dueño)
@@ -218,6 +218,15 @@ Multivitamínico, Omega 3, creatina y proteína: lo de todos los días.
 ¿Cuánto antes de entrenar? ⏰ De 30 a 60 minutos antes. Lipo 6 Black o Guaraná Shot: uno de los dos, nunca juntos.
 
 Contiene cafeína (222 mg por cápsula / 200 mg por shot). No apto para menores ni embarazadas.
+
+Mándaselo a quien entrena contigo. 📌 Guárdalo.
+
+#gym #suplementos #suplementoschile #caldera #copiapo
+- 26 nov · 6 PM · Publicados/2026-11-26_es_original.mp4 (profundidad 2.5D / parallax, 15 s) · entregado el 25 nov. Texto:
+
+¿Es original? Sí. Todo lo que vendemos llega sellado de fábrica y lo abres tú. 🏛️
+
+Whey USN, ISO 100, Nitro Tech, Finaflex (NSF Contents Certified) y el resto del catálogo. Pídelo por DM, delivery en Caldera $1.500.
 
 Mándaselo a quien entrena contigo. 📌 Guárdalo.
 
