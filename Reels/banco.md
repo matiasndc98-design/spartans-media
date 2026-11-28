@@ -5,7 +5,7 @@ Archivos en `Por_subir/` (nombre con la fecha en que tocan). Cuando se entrega, 
 
 ## Pendientes
 
-(vacío: crear un reel nuevo de un tipo distinto al último, profundidad 2.5D / parallax)
+(vacío: crear un reel nuevo de un tipo distinto al último, stop motion)
 
 ## Publicados
 - 11 oct · Publicados/2026-10-11_nuevo_stock.mp4 (subido a mano por el dueño)
@@ -231,3 +231,14 @@ Whey USN, ISO 100, Nitro Tech, Finaflex (NSF Contents Certified) y el resto del 
 Mándaselo a quien entrena contigo. 📌 Guárdalo.
 
 #gym #suplementos #suplementoschile #caldera #copiapo
+- 28 nov · 10 AM · Publicados/2026-11-28_que_va_en_tu_bolso.mp4 (stop motion, 15 s) · entregado el 27 nov. Texto:
+
+¿Qué va en tu bolso? 🎒 Shaker, proteína, barra y un shot.
+
+🎁 Por compra de proteína + creatina, el shaker C4 va de regalo. Pídelo por DM.
+
+Mándaselo a quien entrena contigo. Guárdalo. 📌
+
+Guaraná Shot: contiene cafeína (200 mg por shot). No apto para menores ni embarazadas.
+
+#gym #suplementoschile #proteina #caldera #copiapo
